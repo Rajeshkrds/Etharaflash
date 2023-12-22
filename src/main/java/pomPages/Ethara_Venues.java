@@ -46,10 +46,22 @@ public class Ethara_Venues {
 		PageFactory.initElements(driver, this);
 	}
 
-	public void venuesPage() throws InterruptedException {
+	public void venuesPage(WebDriver driver) throws InterruptedException, IOException {
 		menu_button.click();
 		Thread.sleep(1500);
 		venues.click();
+		String current_url = driver.getCurrentUrl();
+
+		URL newurl = new URL(current_url);
+
+		HttpURLConnection httpConnect = (HttpURLConnection) newurl.openConnection();
+		httpConnect.connect();
+
+		int rescode = httpConnect.getResponseCode();
+
+		if (rescode >= 400) {
+			System.out.println(current_url + " - Page not found (Response code: " + rescode + ")");
+		}
 	}
 
 	public void checking_links() throws IOException {
@@ -62,32 +74,43 @@ public class Ethara_Venues {
 
 			int rescode = httpconnect.getResponseCode();
 			if (rescode >= 400) {
-				System.out.println(urls + " - Page not found");
+				System.out.println(urls + " - Page not found (Response code: " + rescode + ")");
 			}
 //			else {
-//				System.out.println(urls + " - Page found");
+//				System.out.print1	AW2	Q3eszzrdln(urls + " - Page found");
 //			}
 
 		}
 	}
 
-	public void venue_lists(WebDriver driver) throws InterruptedException {
+	public void venue_lists(WebDriver driver) throws InterruptedException, IOException {
 
 		for (WebElement venues : venue_lists) {
+			String current_url = venues.getAttribute("href");
 
-			((JavascriptExecutor) driver).executeScript("window.open(arguments[0])", venues.getAttribute("href"));
+			((JavascriptExecutor) driver).executeScript("window.open(arguments[0])", current_url);
 
 			ArrayList<String> tabs = new ArrayList<>(driver.getWindowHandles());
 			driver.switchTo().window(tabs.get(tabs.size() - 1));
+			URL newurl = new URL(current_url);
 
-			Thread.sleep(2000);
+			HttpURLConnection httpConnect = (HttpURLConnection) newurl.openConnection();
+			httpConnect.connect();
 
-			System.out.println(driver.getTitle()); // Print the title of the new tab
+			int rescode = httpConnect.getResponseCode();
 
-			driver.close();
-			driver.switchTo().window(tabs.get(0));
+			if (rescode >= 400) {
+				System.out.println(current_url + " - Page not found (Response code: " + rescode + ")");
+			} else {
+				Thread.sleep(2000);
 
-			Thread.sleep(2000);
+				System.out.println(driver.getTitle()); // Print the title of the new tab
+
+				driver.close();
+				driver.switchTo().window(tabs.get(0));
+
+				Thread.sleep(2000);
+			}
 
 		}
 	}

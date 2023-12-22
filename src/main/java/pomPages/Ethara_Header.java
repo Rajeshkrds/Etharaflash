@@ -74,7 +74,7 @@ public class Ethara_Header {
 
 			int rescode = httpconnect.getResponseCode();
 			if (rescode >= 400) {
-				System.out.println(newurl + " - Page not found");
+				System.out.println(url + " - Page not found (Response code: " + rescode + ")");
 			}
 
 //			else {
@@ -133,7 +133,7 @@ public class Ethara_Header {
 
 	// very first try using for and for each loop but it executed for 6 times in 6
 	// sets
-	public void menuOptionsfun(WebDriver driver) throws InterruptedException {
+	public void menuOptionsfun(WebDriver driver) throws InterruptedException, IOException {
 
 		// geting all options form menu list
 //		for(WebElement options : menuOptions) 
@@ -199,101 +199,157 @@ public class Ethara_Header {
 		for (int i = 0; i < menuOptions.size(); i++) {
 			Thread.sleep(2000);
 
+			String current_url = menuOptions.get(i).getAttribute("href");
+
 			// Open a new tab using JavaScript to trigger the link in a new tab/window
-			((JavascriptExecutor) driver).executeScript("window.open(arguments[0])",
-					menuOptions.get(i).getAttribute("href"));
+			((JavascriptExecutor) driver).executeScript("window.open(arguments[0])", current_url);
 
 			// Switch to the newly opened tab
 			ArrayList<String> tabs = new ArrayList<>(driver.getWindowHandles());
 			driver.switchTo().window(tabs.get(tabs.size() - 1)); // Switch to the last opened tab total size 7-1 = 6
 																	// index
 
-			// Perform actions in the new tab
-			Thread.sleep(2000);
+			URL newurl = new URL(current_url);
 
-			System.out.println(driver.getTitle()); // Print the title of the new tab
+			HttpURLConnection httpConnect = (HttpURLConnection) newurl.openConnection();
+			httpConnect.connect();
 
-			driver.close();
-			driver.switchTo().window(tabs.get(0));
+			int rescode = httpConnect.getResponseCode();
 
-			Thread.sleep(2000);
+			if (rescode >= 400) {
+				System.out.println(current_url + " - Page not found (Response code: " + rescode + ")");
+			} else {
+				// Perform actions in the new tab
+				Thread.sleep(2000);
 
-			// Redeclaring to avoid stale element exception
-			menuOptions = driver.findElements(By.xpath("//div[contains(@class,'styles_nav-item__h4Zei')]//a"));
+				System.out.println(driver.getTitle()); // Print the title of the new tab
+
+				driver.close();
+				driver.switchTo().window(tabs.get(0));
+
+				Thread.sleep(2000);
+
+				// Redeclaring to avoid stale element exception
+				menuOptions = driver.findElements(By.xpath("//div[contains(@class,'styles_nav-item__h4Zei')]//a"));
+			}
+
 		}
 	}
 
-	public void terms_and_conditions(WebDriver driver) throws InterruptedException {
+	public void terms_and_conditions(WebDriver driver) throws InterruptedException, IOException {
 
-		((JavascriptExecutor) driver).executeScript("window.open(arguments[0])", TandC.getAttribute("href"));
+		String current_url = TandC.getAttribute("href");
+
+		((JavascriptExecutor) driver).executeScript("window.open(arguments[0])", current_url);
 
 		ArrayList<String> tabs = new ArrayList<>(driver.getWindowHandles());
 		driver.switchTo().window(tabs.get(tabs.size() - 1));
-		Thread.sleep(2000);
 
-		String Actual_PagTitle = driver.getTitle();
-		System.out.println(Actual_PagTitle);
-		String Expected_PageTitle = "Ethara | Terms and Conditions";
-		a.assertEquals(Actual_PagTitle, Expected_PageTitle);
+		URL newurl = new URL(current_url);
 
-		driver.close();
-		driver.switchTo().window(tabs.get(0));
+		HttpURLConnection httpConnect = (HttpURLConnection) newurl.openConnection();
+		httpConnect.connect();
 
-	}
+		int rescode = httpConnect.getResponseCode();
 
-	public void privacy(WebDriver driver) throws InterruptedException {
-		((JavascriptExecutor) driver).executeScript("window.open(arguments[0])", privacy.getAttribute("href"));
-
-		ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
-		driver.switchTo().window(tabs.get(tabs.size() - 1));
-		Thread.sleep(2000);
-
-		String Actual_PagTitle_PP = driver.getTitle();
-		System.out.println(Actual_PagTitle_PP);
-		String Expected_PageTitle_PP = "Ethara | Privacy Policy";
-		a.assertEquals(Actual_PagTitle_PP, Expected_PageTitle_PP);
-
-		driver.close();
-		driver.switchTo().window(tabs.get(0));
-
-	}
-
-	public void sustainability(WebDriver driver) throws InterruptedException {
-		((JavascriptExecutor) driver).executeScript("window.open(arguments[0])", Sustainability.getAttribute("href"));
-
-		ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
-		driver.switchTo().window(tabs.get(tabs.size() - 1));
-		Thread.sleep(2000);
-
-		String Actual_PagTitle_SP = driver.getTitle();
-		System.out.println(Actual_PagTitle_SP);
-		String Expected_PageTitle_SP = "Ethara | Sustainability Policy";
-		a.assertEquals(Actual_PagTitle_SP, Expected_PageTitle_SP);
-
-		driver.close();
-		driver.switchTo().window(tabs.get(0));
-
-	}
-
-	public void social_media(WebDriver driver) throws InterruptedException {
-
-		for (int i = 0; i < socialmediaicons.size(); i++) {
-
+		if (rescode >= 400) {
+			System.out.println(current_url + " - Page not found (Response code: " + rescode + ")");
+		} else {
 			Thread.sleep(2000);
-			((JavascriptExecutor) driver).executeScript("window.open(arguments[0])",
-					socialmediaicons.get(i).getAttribute("href"));
 
-			Thread.sleep(2000);
-			ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
-			driver.switchTo().window(tabs.get(tabs.size() - 1));
-			System.out.println(driver.getCurrentUrl());
+			String Actual_PagTitle = driver.getTitle();
+			System.out.println(Actual_PagTitle);
+			String Expected_PageTitle = "Ethara | Terms and Conditions";
+			a.assertEquals(Actual_PagTitle, Expected_PageTitle);
 
-			Thread.sleep(2000);
 			driver.close();
 			driver.switchTo().window(tabs.get(0));
 		}
-
-//		
 	}
 
+	public void privacy(WebDriver driver) throws InterruptedException, IOException {
+		String current_url = privacy.getAttribute("href");
+
+		((JavascriptExecutor) driver).executeScript("window.open(arguments[0])", current_url);
+
+		ArrayList<String> tabs = new ArrayList(driver.getWindowHandles());
+		driver.switchTo().window(tabs.get(tabs.size() - 1));
+		URL newurl = new URL(current_url);
+
+		HttpURLConnection httpConnect = (HttpURLConnection) newurl.openConnection();
+		httpConnect.connect();
+
+		int rescode = httpConnect.getResponseCode();
+
+		if (rescode >= 400) {
+			System.out.println(current_url + " - Page not found (Response code: " + rescode + ")");
+		} else {
+			Thread.sleep(2000);
+
+			String Actual_PagTitle = driver.getTitle();
+			System.out.println(Actual_PagTitle);
+			String Expected_PageTitle = "Ethara | Privacy Policy";
+			a.assertEquals(Actual_PagTitle, Expected_PageTitle);
+
+			driver.close();
+			driver.switchTo().window(tabs.get(0));
+		}
+	}
+
+	public void sustainability(WebDriver driver) throws InterruptedException, IOException {
+		String current_url = Sustainability.getAttribute("href");
+
+		((JavascriptExecutor) driver).executeScript("window.open(arguments[0])", current_url);
+
+		ArrayList<String> tabs = new ArrayList(driver.getWindowHandles());
+		driver.switchTo().window(tabs.get(tabs.size() - 1));
+		URL newurl = new URL(current_url);
+
+		HttpURLConnection httpConnect = (HttpURLConnection) newurl.openConnection();
+		httpConnect.connect();
+
+		int rescode = httpConnect.getResponseCode();
+
+		if (rescode >= 400) {
+			System.out.println(current_url + " - Page not found (Response code: " + rescode + ")");
+		} else {
+			Thread.sleep(2000);
+
+			String Actual_PagTitle_SP = driver.getTitle();
+			System.out.println(Actual_PagTitle_SP);
+			String Expected_PageTitle_SP = "Ethara | Sustainability Policy";
+			a.assertEquals(Actual_PagTitle_SP, Expected_PageTitle_SP);
+
+			driver.close();
+			driver.switchTo().window(tabs.get(0));
+		}
+	}
+
+	public void socialmedia(WebDriver driver) throws InterruptedException, IOException {
+		for (int i = 0; i < socialmediaicons.size(); i++) {
+			String current_url = socialmediaicons.get(i).getAttribute("href");
+
+			((JavascriptExecutor) driver).executeScript("window.open(arguments[0])", current_url);
+
+			ArrayList<String> tabs = new ArrayList(driver.getWindowHandles());
+			driver.switchTo().window(tabs.get(tabs.size() - 1));
+			URL newurl = new URL(current_url);
+
+			HttpURLConnection httpConnect = (HttpURLConnection) newurl.openConnection();
+			httpConnect.connect();
+
+			int rescode = httpConnect.getResponseCode();
+
+			if (rescode >= 400) {
+				System.out.println(current_url + " - Page not found (Response code: " + rescode + ")");
+			} else {
+				System.out.println(driver.getTitle());
+				Thread.sleep(2000);
+				System.out.println(driver.getCurrentUrl());
+				driver.close();
+				driver.switchTo().window(tabs.get(0));
+				Thread.sleep(2000);
+			}
+		}
+	}
 }

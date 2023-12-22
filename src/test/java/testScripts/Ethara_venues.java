@@ -17,7 +17,7 @@ public class Ethara_venues extends BaseClass {
 
 		Ethara_Venues venues = new Ethara_Venues(driver);
 
-		venues.venuesPage();
+		venues.venuesPage(driver);
 
 //		utilities.validation(driver.getTitle(), "");
 

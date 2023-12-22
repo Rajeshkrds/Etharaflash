@@ -16,7 +16,7 @@ public class Ethara_events extends BaseClass {
 	public void ethara_events_tc() throws IOException, InterruptedException {
 
 		Ethara_Events events = new Ethara_Events(driver);
-		events.eventPage();
+		events.eventPage(driver);
 
 		utilities.validation(driver.getTitle(), "Ethara | Making Moments That Matter");
 
@@ -34,16 +34,16 @@ public class Ethara_events extends BaseClass {
 	}
 
 	@Test
-	public void filter_category_and_location_tc() throws InterruptedException {
+	public void filter_category_and_location_tc() throws InterruptedException, IOException {
 		Ethara_Events events = new Ethara_Events(driver);
-		events.eventPage();
+		events.eventPage(driver);
 		events.category_and_location(driver);
 	}
 
 	@Test
-	public void filter_category_location_month_tc() throws InterruptedException {
+	public void filter_category_location_month_tc() throws InterruptedException, IOException {
 		Ethara_Events events = new Ethara_Events(driver);
-		events.eventPage();
+		events.eventPage(driver);
 		events.category_location_month(driver);
 	}
 }

@@ -70,10 +70,22 @@ public class Ethara_Events {
 		PageFactory.initElements(driver, this);
 	}
 
-	public void eventPage() throws InterruptedException {
+	public void eventPage(WebDriver driver) throws InterruptedException, IOException {
 		menu_button.click();
 		Thread.sleep(2000);
 		events.click();
+		String current_url = driver.getCurrentUrl();
+
+		URL newurl = new URL(current_url);
+
+		HttpURLConnection httpConnect = (HttpURLConnection) newurl.openConnection();
+		httpConnect.connect();
+
+		int rescode = httpConnect.getResponseCode();
+
+		if (rescode >= 400) {
+			System.out.println(current_url + " - Page not found (Response code: " + rescode + ")");
+		}
 	}
 
 	public void check_links() throws IOException {
@@ -87,7 +99,7 @@ public class Ethara_Events {
 
 			int rescode = httpconnect.getResponseCode();
 			if (rescode >= 400) {
-				System.out.println(newurl + " - Page not found");
+				System.out.println(url + " - Page not found (Response code: " + rescode + ")");
 			}
 
 //			else {

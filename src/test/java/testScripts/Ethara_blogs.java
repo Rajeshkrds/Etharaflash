@@ -16,7 +16,7 @@ public class Ethara_blogs extends BaseClass {
 	public void filters_tc() throws InterruptedException, IOException {
 
 		Ethara_Blogs blogs = new Ethara_Blogs(driver);
-		blogs.blog_page();
+		blogs.blog_page(driver);
 
 		String PageTitle = driver.getTitle();
 
@@ -24,7 +24,7 @@ public class Ethara_blogs extends BaseClass {
 		blogs.check_links();
 		blogs.blog_filters(driver);
 
-		blogs.blog_details();
+		blogs.blog_details(driver);
 //		utilities.validation(PageTitle, PageTitle);
 	}
 }

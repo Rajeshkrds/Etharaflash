@@ -1,5 +1,7 @@
 package testScripts;
 
+import java.io.IOException;
+
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
@@ -13,9 +15,9 @@ public class Ethara_blog_subscription extends BaseClass {
 	webUtilities utilities = new webUtilities();
 
 	@Test(enabled = true)
-	public void businessForm_positive_tc() throws InterruptedException {
+	public void businessForm_positive_tc() throws InterruptedException, IOException {
 		Ethara_Blogs blogs = new Ethara_Blogs(driver);
-		blogs.blog_page();
+		blogs.blog_page(driver);
 		String PageTitle = driver.getTitle();
 
 		utilities.validation("test", PageTitle);
@@ -42,9 +44,9 @@ public class Ethara_blog_subscription extends BaseClass {
 	}
 
 	@Test(enabled = false)
-	public void businessForm_FormValidation_tc() throws InterruptedException {
+	public void businessForm_FormValidation_tc() throws InterruptedException, IOException {
 		Ethara_Blogs blogs = new Ethara_Blogs(driver);
-		blogs.blog_page();
+		blogs.blog_page(driver);
 
 		Ethara_Blog_subscription business = new Ethara_Blog_subscription(driver);
 		business.subscribe();
@@ -87,9 +89,9 @@ public class Ethara_blog_subscription extends BaseClass {
 	}
 
 	@Test(enabled = true)
-	public void personalForm_postivie_tc() throws InterruptedException {
+	public void personalForm_postivie_tc() throws InterruptedException, IOException {
 		Ethara_Blogs blogs = new Ethara_Blogs(driver);
-		blogs.blog_page();
+		blogs.blog_page(driver);
 
 		Ethara_Blog_subscription personal = new Ethara_Blog_subscription(driver);
 		personal.select_personal();
@@ -106,9 +108,9 @@ public class Ethara_blog_subscription extends BaseClass {
 	}
 
 	@Test(enabled = false)
-	public void personalForm_FormValidation_tc() throws InterruptedException {
+	public void personalForm_FormValidation_tc() throws InterruptedException, IOException {
 		Ethara_Blogs blogs = new Ethara_Blogs(driver);
-		blogs.blog_page();
+		blogs.blog_page(driver);
 
 		Ethara_Blog_subscription personal = new Ethara_Blog_subscription(driver);
 		personal.select_personal();

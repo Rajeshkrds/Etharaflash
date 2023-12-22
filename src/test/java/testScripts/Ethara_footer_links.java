@@ -1,5 +1,7 @@
 package testScripts;
 
+import java.io.IOException;
+
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
@@ -10,7 +12,7 @@ import pomPages.Ethara_Footer;
 public class Ethara_footer_links extends BaseClass {
 
 	@Test
-	public void footerlinks_tc() throws InterruptedException {
+	public void footerlinks_tc() throws InterruptedException, IOException {
 
 		Ethara_Footer footer = new Ethara_Footer(driver);
 

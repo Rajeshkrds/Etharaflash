@@ -58,7 +58,7 @@ public class Ethara_Artists {
 			int rescode = httpConnect.getResponseCode();
 
 			if (rescode >= 400) {
-				System.out.println(newurl + " - Page not found");
+				System.out.println(url + " - Page not found (Response code: " + rescode + ")");
 			}
 		}
 

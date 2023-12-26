@@ -19,6 +19,7 @@ public class Ethara_venues extends BaseClass {
 
 		venues.venuesPage(driver);
 
+		// Title not available for this page
 //		utilities.validation(driver.getTitle(), "");
 
 		venues.checking_links();

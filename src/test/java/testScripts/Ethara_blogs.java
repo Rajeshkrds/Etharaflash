@@ -20,7 +20,7 @@ public class Ethara_blogs extends BaseClass {
 
 		String PageTitle = driver.getTitle();
 
-		utilities.validation("test", PageTitle);
+		utilities.validation(PageTitle, "test");
 		blogs.check_links();
 		blogs.blog_filters(driver);
 

@@ -36,9 +36,9 @@ public class webUtilities {
 		Thread.sleep(2000);
 	}
 
-	public void validation(String expected, String actual) {
+	public void validation(String actual, String expected) {
 		SoftAssert a = new SoftAssert();
-		a.assertEquals(expected, actual);
+		a.assertEquals(actual, expected);
 	}
 
 	public void scrolldown(WebDriver driver) {

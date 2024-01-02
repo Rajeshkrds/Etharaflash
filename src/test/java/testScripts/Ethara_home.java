@@ -38,7 +38,7 @@ public class Ethara_home extends BaseClass {
 		String actual_title = utilities.getPageTitle(driver);
 		utilities.delay();
 		System.out.println(actual_title);
-		utilities.validation(Expected_title, actual_title);
+		utilities.validation(actual_title, Expected_title);
 
 		utilities.backward(driver);
 		utilities.delay();
@@ -49,7 +49,7 @@ public class Ethara_home extends BaseClass {
 		String actual_contactustitle = utilities.getPageTitle(driver);
 		utilities.delay();
 		System.out.println(actual_contactustitle);
-		utilities.validation(Expected_contactustitle, actual_contactustitle);
+		utilities.validation(actual_contactustitle, Expected_contactustitle);
 		utilities.delay();
 		utilities.backward(driver);
 
@@ -59,7 +59,7 @@ public class Ethara_home extends BaseClass {
 		String actual_aboutustitle = utilities.getPageTitle(driver);
 		utilities.delay();
 		System.out.println(actual_aboutustitle);
-		utilities.validation(Expected_aboutustitle, actual_aboutustitle);
+		utilities.validation(actual_aboutustitle, Expected_aboutustitle);
 		utilities.delay();
 		utilities.backward(driver);
 
@@ -82,7 +82,7 @@ public class Ethara_home extends BaseClass {
 		String actual_ourpeopletitle = utilities.getPageTitle(driver);
 		utilities.delay();
 		System.out.println(actual_ourpeopletitle);
-		utilities.validation(Expected_ourpeopletitle, actual_ourpeopletitle);
+		utilities.validation(actual_ourpeopletitle, Expected_ourpeopletitle);
 		utilities.delay();
 		utilities.backward(driver);
 

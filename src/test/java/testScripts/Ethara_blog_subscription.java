@@ -20,7 +20,7 @@ public class Ethara_blog_subscription extends BaseClass {
 		blogs.blog_page(driver);
 		String PageTitle = driver.getTitle();
 
-		utilities.validation("test", PageTitle);
+		utilities.validation(PageTitle, "test");
 
 		Ethara_Blog_subscription business = new Ethara_Blog_subscription(driver);
 //			utilities.delay();

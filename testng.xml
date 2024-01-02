@@ -12,7 +12,7 @@
 		       <class name="testScripts.Ethara_contact_us"></class>
 		        <class name="testScripts.Ethara_events"></class>
 		         <class name="testScripts.Ethara_footer_links"></class>
-		          <class name="testScripts.Ethara_header_menu"></class>
+		          <class name="testScripts.Ethara_h"></class>
 	  </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

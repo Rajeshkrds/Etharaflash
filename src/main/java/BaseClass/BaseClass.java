@@ -54,12 +54,11 @@ public class BaseClass {
 		int resCode = httpconnect.getResponseCode();
 		if (resCode >= 400) {
 			System.out.println("Page not found - (Response Code : " + resCode + ")");
-			driver.close();
 		}
 
-//		else {
-//			System.out.println("Landing page displayed");
-//		}
+		else {
+			System.out.println("Landing page displayed");
+		}
 
 	}
 

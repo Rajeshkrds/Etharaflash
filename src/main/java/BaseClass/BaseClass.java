@@ -7,36 +7,39 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import utilities.Config;
 
 public class BaseClass {
 
-//	Config readConfig = new Config();
+	Config readConfig = new Config();
 	public WebDriver driver;
 
-//	public String url = readConfig.getBaseURL();
+	public String url = readConfig.getBaseURL();
 
-//	@Parameters("browser")
+	@Parameters("browser")
 	@SuppressWarnings("deprecation")
 	@BeforeTest
-//	public void launch_bowser(String br) throws IOException {
+	public void launch_bowser(@Optional("chrome") String browser) throws IOException {
 
-	public void launch_bowser() throws IOException {
-
-//		if (br.equals("chrome")) {
-//			WebDriverManager.chromedriver().setup();
-//			driver = new ChromeDriver();
-//		} else if (br.equals("firefox")) {
-//			WebDriverManager.firefoxdriver().setup();
-//			driver = new FirefoxDriver();
-//		} else if (br.equals("microsoft")) {
-//			WebDriverManager.edgedriver().setup();
-//			driver = new EdgeDriver();
-//		}
+		if (browser.equals("chrome")) {
+			WebDriverManager.chromedriver().setup();
+			driver = new ChromeDriver();
+		} else if (browser.equals("firefox")) {
+			WebDriverManager.firefoxdriver().setup();
+			driver = new FirefoxDriver();
+		} else if (browser.equals("microsoft")) {
+			WebDriverManager.edgedriver().setup();
+			driver = new EdgeDriver();
+		}
 
 //		String url = "https://ethara-frontend-staging.eu-staging.kacdn.net/";
 

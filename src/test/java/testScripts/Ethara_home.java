@@ -86,6 +86,7 @@ public class Ethara_home extends BaseClass {
 		utilities.delay();
 		utilities.backward(driver);
 
+		utilities.assertAll();
 	}
 
 //	@Test(priority = 3)

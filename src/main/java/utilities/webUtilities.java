@@ -41,6 +41,11 @@ public class webUtilities {
 		a.assertEquals(actual, expected);
 	}
 
+	public void assertAll() {
+		SoftAssert a = new SoftAssert();
+		a.assertAll();
+	}
+
 	public void scrolldown(WebDriver driver) {
 		Actions a = new Actions(driver);
 		a.keyDown(Keys.ARROW_DOWN).perform();

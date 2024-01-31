@@ -86,6 +86,8 @@ public class Ethara_contact_us extends BaseClass {
 //		String emirate_act_Message = driver.findElement(By.xpath("//span[contains(text(),'Please select an Emirate')]")).getText();
 //		String emirate_exp_Message = "Please select an Emirate";
 //		utilities.validation(emirate_act_Message, emirate_exp_Message);
+
+		utilities.assertAll();
 	}
 
 	@Test(enabled = true)
@@ -147,6 +149,8 @@ public class Ethara_contact_us extends BaseClass {
 				.getText();
 		String emirate_exp_Message = "Please select an Emirate";
 		utilities.validation(emirate_act_Message, emirate_exp_Message);
+
+		utilities.assertAll();
 	}
 
 }

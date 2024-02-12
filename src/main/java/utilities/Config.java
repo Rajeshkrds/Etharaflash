@@ -9,10 +9,10 @@ public class Config {
 
 	public Config() {
 		try {
-			FileInputStream fin = new FileInputStream(
+			FileInputStream filepath = new FileInputStream(
 					"C:\\Users\\Administrator\\eclipse-workspace\\Ethara\\src\\test\\resources\\data.properties");
 			properties = new Properties();
-			properties.load(fin);
+			properties.load(filepath);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

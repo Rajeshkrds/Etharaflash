@@ -2,12 +2,15 @@ package pomPages;
 
 import java.util.List;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class Ethara_Contact_Us {
+
+	Logger log = Logger.getLogger(this.getClass().getName());
 
 	@FindBy(id = "business")
 	private WebElement business_radio_button;
@@ -73,47 +76,59 @@ public class Ethara_Contact_Us {
 	}
 
 	public void select_business() {
+		log.info("Checcking of business contact form");
 		if (business_radio_button.isSelected())
 			System.out.println("Aleadry select");
-		else
+		else {
+			log.info("Cliking on Business radio button");
 			business_radio_button.click();
+		}
 	}
 
 	public void select_personal() {
+		log.info("Checcking of Personal contact form");
 		if (persoanl_radio_button.isSelected())
 			System.out.println("Aleadry select");
-		else
+		else {
+			log.info("Cliking on Personal radio button");
 			persoanl_radio_button.click();
+		}
 	}
 
 	public void setCompanyName() {
+		log.info("Entering Company Name");
 		companyname_tb.clear();
 		companyname_tb.sendKeys("KRDS");
 	}
 
 	public void setPosition() {
+		log.info("Entering Position");
 		position_tb.clear();
 		position_tb.sendKeys("Test");
 	}
 
 	public void setUsernames() {
+		log.info("Entering First Name");
 		firstname_tb.clear();
 		firstname_tb.sendKeys("Test");
 
+		log.info("Entering Last Name");
 		lastname_tb.clear();
 		lastname_tb.sendKeys("One");
 
 	}
 
 	public void setEmail() {
+		log.info("Entering Email Address");
 		email_tb.clear();
 		email_tb.sendKeys("testone@gmail.com");
 	}
 
 	public void selectInterest() throws InterruptedException {
+		log.info("Selecting Interests from listed options");
 		share_interest_tb.click();
 		int size = interest_dd.size();
-		System.out.println("Total interests listed are " + size);
+		log.info("Total interests listed are " + size);
 		for (WebElement getOptions : interest_dd) {
 			Thread.sleep(1000);
 			String options = getOptions.getText();
@@ -130,9 +145,10 @@ public class Ethara_Contact_Us {
 	}
 
 	public void selectCountryCode(WebDriver driver) throws InterruptedException {
+		log.info("Selecting Country Code from listed options");
 		countryCode_tb.click();
 		int size = countryCodes.size();
-		System.out.println("Total country codes available are " + size);
+		log.info("Total country codes available are " + size);
 		Thread.sleep(3000);
 		for (WebElement countryOptions : countryCodes)
 
@@ -157,15 +173,17 @@ public class Ethara_Contact_Us {
 	}
 
 	public void setMobileNumber() {
+		log.info("Enter Mobile Number");
 		phone_tb.clear();
 		phone_tb.sendKeys("847484561");
 
 	}
 
 	public void setCountry() throws InterruptedException {
+		log.info("Selecting Country from listed options");
 		country_tb.click();
 		int size = countries.size();
-		System.out.println("Total No of countries are " + size);
+		log.info("Total No of countries are " + size);
 		Thread.sleep(3000);
 		for (WebElement CountryNames : countries) {
 			String countryName = CountryNames.getText();
@@ -179,6 +197,7 @@ public class Ethara_Contact_Us {
 	}
 
 	public void setEmirate() throws InterruptedException {
+		log.info("Selecting Emirates ");
 		if (Emirates_tb.isEnabled())
 
 		{
@@ -205,6 +224,7 @@ public class Ethara_Contact_Us {
 	}
 
 	public void subscribe() {
+		log.info("Clikcing on Subscription CTA");
 		subscribe.click();
 	}
 
@@ -213,8 +233,9 @@ public class Ethara_Contact_Us {
 	}
 
 	public void checkCaptcha() {
+		log.info("Checking for CAPTCHA");
 		captacha.isDisplayed();
-		System.out.println("Google CAPTCHA is present in this page");
+		log.info("Google CAPTCHA present");
 	}
 
 }

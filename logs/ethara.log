@@ -1,0 +1,38 @@
+2024-02-08 15:44:24,795  [main] INFO  (BaseClass.java:41) - Setting up Chrome browser
+2024-02-08 15:44:27,642  [main] INFO  (BaseClass.java:73) - Landing page is displayed 
+2024-02-08 15:44:27,827  [main] INFO  (Ethara_header_menu.java:20) - testScripts.Ethara_header_menu
+2024-02-08 15:45:28,095  [main] INFO  (BaseClass.java:91) - Closing browser
+2024-02-08 15:52:08,546  [main] INFO  (BaseClass.java:41) - Setting up Chrome browser
+2024-02-08 15:52:10,516  [main] INFO  (BaseClass.java:73) - Landing page is displayed 
+2024-02-08 15:52:10,575  [main] INFO  (Ethara_header_menu.java:20) - testScripts.Ethara_header_menu
+2024-02-08 15:52:10,576  [main] INFO  (Ethara_Header.java:122) - Clicking on Menu button in header 
+2024-02-08 15:52:10,656  [main] INFO  (Ethara_Header.java:159) - Testing Menu options
+2024-02-08 15:52:15,179  [main] INFO  (Ethara_Header.java:251) - Ethara | About Us
+2024-02-08 15:52:21,740  [main] INFO  (Ethara_Header.java:251) - Ethara | Our Work
+2024-02-08 15:52:28,384  [main] INFO  (Ethara_Header.java:251) - Ethara | Our People
+2024-02-08 15:52:34,777  [main] INFO  (Ethara_Header.java:251) - Ethara | Contact Us
+2024-02-08 15:52:41,186  [main] INFO  (Ethara_Header.java:251) - 
+2024-02-08 15:52:47,726  [main] INFO  (Ethara_Header.java:251) - 
+2024-02-08 15:52:54,326  [main] INFO  (Ethara_Header.java:251) - 
+2024-02-08 15:53:00,770  [main] INFO  (Ethara_Header.java:251) - Regional Artist Spotlight
+2024-02-08 15:53:02,931  [main] INFO  (Ethara_Header.java:265) - Test Terms and conditions
+2024-02-08 15:53:05,393  [main] INFO  (Ethara_Header.java:289) - Ethara | Terms and Conditions
+2024-02-08 15:53:05,492  [main] INFO  (Ethara_Header.java:300) - Testing privacy policy
+2024-02-08 15:53:07,934  [main] INFO  (Ethara_Header.java:322) - Ethara | Privacy Policy
+2024-02-08 15:53:08,015  [main] INFO  (Ethara_Header.java:333) - Testing sustainability
+2024-02-08 15:53:10,324  [main] INFO  (Ethara_Header.java:355) - Ethara | Sustainability Policy
+2024-02-08 15:53:10,495  [main] INFO  (Ethara_Header.java:117) - Clicking on close button in header 
+2024-02-08 15:53:10,639  [main] INFO  (BaseClass.java:91) - Closing browser
+2024-02-08 16:40:10,038  [main] INFO  (BaseClass.java:41) - Setting up Chrome browser
+2024-02-08 16:40:12,037  [main] INFO  (BaseClass.java:73) - Landing page is displayed 
+2024-02-08 16:40:12,116  [main] INFO  (Ethara_header_menu.java:20) - testScripts.Ethara_header_menu
+2024-02-08 16:40:13,372  [main] INFO  (BaseClass.java:89) - Taking screenshot for failed test case testScripts.Ethara_header_menu
+2024-02-08 16:40:13,372  [main] INFO  (BaseClass.java:91) - Closing browser
+2024-02-08 16:40:46,233  [main] INFO  (BaseClass.java:41) - Setting up Chrome browser
+2024-02-08 16:40:48,186  [main] INFO  (BaseClass.java:73) - Landing page is displayed 
+2024-02-08 16:40:48,255  [main] INFO  (Ethara_header_menu.java:20) - testScripts.Ethara_header_menu
+2024-02-08 16:40:48,256  [main] INFO  (Ethara_Header.java:120) - Clicking on Menu button in header 
+2024-02-08 16:40:48,332  [main] INFO  (Ethara_Header.java:155) - Testing Menu options
+2024-02-08 16:40:52,895  [main] INFO  (Ethara_Header.java:247) - Getting Page Title Ethara | About Us
+2024-02-08 16:40:59,468  [main] INFO  (Ethara_Header.java:247) - Getting Page Title Ethara | Our Work
+2024-02-08 16:41:05,895  [main] INFO  (Ethara_Header.java:247) - Getting Page Title Ethara | Our People

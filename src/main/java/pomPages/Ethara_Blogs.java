@@ -6,6 +6,7 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -14,6 +15,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class Ethara_Blogs {
+
+	Logger log = Logger.getLogger(this.getClass().getName());
 
 	@FindBy(xpath = "//span[contains(text(),'Menu')]")
 	private WebElement menu_button;
@@ -44,8 +47,10 @@ public class Ethara_Blogs {
 	}
 
 	public void blog_page(WebDriver driver) throws InterruptedException, IOException {
+		log.info("Clicking on Menu from Header");
 		menu_button.click();
 		Thread.sleep(1500);
+		log.info("Clicking on Blog from Menu");
 		blogs.click();
 		String current_url = driver.getCurrentUrl();
 
@@ -57,17 +62,18 @@ public class Ethara_Blogs {
 		int rescode = httpConnect.getResponseCode();
 
 		if (rescode >= 400) {
-			System.out.println(current_url + " - Page not found (Response code: " + rescode + ")");
+			log.info(current_url + " - Page not found (Response code: " + rescode + ")");
 		}
 	}
 
 	public void check_links() throws IOException, InterruptedException {
 
+		log.info("Checking for broken links");
 		Thread.sleep(5000);
 		for (WebElement Link : links) {
 			String url = Link.getAttribute("href");
 			if (url.startsWith("javascript:") || url.startsWith("mailto:") || url.startsWith("tel:")) {
-				System.out.println("Skipping JavaScript link: " + url);
+				log.info("Skipping JavaScript link: " + url);
 				continue; // Skip this link and continue to the next iteration
 			}
 			URL newurl = new URL(url);
@@ -78,7 +84,7 @@ public class Ethara_Blogs {
 			int rescode = httpConnect.getResponseCode();
 
 			if (rescode >= 400) {
-				System.out.println(url + " - Page not found (Response code: " + rescode + ")");
+				log.info(url + " - Page not found (Response code: " + rescode + ")");
 			}
 		}
 
@@ -86,6 +92,7 @@ public class Ethara_Blogs {
 
 	public void blog_filters(WebDriver driver) throws InterruptedException, IOException {
 
+		log.info("Testing Blog Filters");
 		for (WebElement filterOptions : filters) {
 			filterOptions.getText();
 
@@ -93,7 +100,7 @@ public class Ethara_Blogs {
 
 			if (blog_lists.size() != 0) {
 
-				System.out.println("Blogs under " + filterOptions + ":");
+				log.info("Blogs under " + filterOptions + ":");
 
 				if (loadMore_button.isDisplayed()) {
 
@@ -114,11 +121,11 @@ public class Ethara_Blogs {
 						int rescode = httpConnect.getResponseCode();
 
 						if (rescode >= 400) {
-							System.out.println(current_url + " - Page not found (Response code: " + rescode + ")");
+							log.info(current_url + " - Page not found (Response code: " + rescode + ")");
 						} else {
 							Thread.sleep(2000);
 
-							System.out.println(driver.getTitle()); // Print the title of the new tab
+							log.info(driver.getTitle()); // Print the title of the new tab
 
 							driver.close();
 							driver.switchTo().window(tabs.get(0));
@@ -145,11 +152,11 @@ public class Ethara_Blogs {
 						int rescode = httpConnect.getResponseCode();
 
 						if (rescode >= 400) {
-							System.out.println(current_url + " - Page not found (Response code: " + rescode + ")");
+							log.info(current_url + " - Page not found (Response code: " + rescode + ")");
 						} else {
 							Thread.sleep(2000);
 
-							System.out.println(driver.getTitle()); // Print the title of the new tab
+							log.info(driver.getTitle()); // Print the title of the new tab
 
 							driver.close();
 							driver.switchTo().window(tabs.get(0));
@@ -160,7 +167,7 @@ public class Ethara_Blogs {
 
 				}
 			} else {
-				System.out.println("No blogs availblae under in" + filterOptions);
+				log.info("No blogs availblae under in" + filterOptions);
 			}
 
 		}
@@ -168,7 +175,7 @@ public class Ethara_Blogs {
 	}
 
 	public void blog_details(WebDriver driver) throws IOException, InterruptedException {
-
+		log.info("Clicking on blog");
 		blog_card.click();
 		String current_url = driver.getCurrentUrl();
 
@@ -180,7 +187,7 @@ public class Ethara_Blogs {
 		int rescode = httpConnect.getResponseCode();
 
 		if (rescode >= 400) {
-			System.out.println(current_url + " - Page not found (Response code: " + rescode + ")");
+			log.info(current_url + " - Page not found (Response code: " + rescode + ")");
 		} else {
 			check_links();
 		}

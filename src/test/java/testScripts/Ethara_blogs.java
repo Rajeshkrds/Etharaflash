@@ -15,6 +15,7 @@ public class Ethara_blogs extends BaseClass {
 	@Test
 	public void filters_tc() throws InterruptedException, IOException {
 
+		log.info(this.getClass().getName());
 		Ethara_Blogs blogs = new Ethara_Blogs(driver);
 		blogs.blog_page(driver);
 

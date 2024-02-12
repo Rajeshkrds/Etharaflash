@@ -15,6 +15,7 @@ public class Ethara_contact_us extends BaseClass {
 
 	@Test(enabled = true)
 	public void businessForm_positive_tc() throws InterruptedException, IOException {
+		log.info(this.getClass().getName());
 		Ethara_Header hp_header = new Ethara_Header(driver);
 		hp_header.contactus_button();
 

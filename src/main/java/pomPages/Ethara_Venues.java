@@ -6,6 +6,7 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -14,6 +15,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class Ethara_Venues {
+
+	Logger log = Logger.getLogger(this.getClass().getName());
 
 	@FindBy(xpath = "//span[contains(text(),'Menu')]")
 	private WebElement menu_button;
@@ -47,8 +50,10 @@ public class Ethara_Venues {
 	}
 
 	public void venuesPage(WebDriver driver) throws InterruptedException, IOException {
+		log.info("Clicking on Menu from header");
 		menu_button.click();
 		Thread.sleep(1500);
+		log.info("Clicking on Venues Menu");
 		venues.click();
 		String current_url = driver.getCurrentUrl();
 
@@ -60,11 +65,13 @@ public class Ethara_Venues {
 		int rescode = httpConnect.getResponseCode();
 
 		if (rescode >= 400) {
-			System.out.println(current_url + " - Page not found (Response code: " + rescode + ")");
+			log.info(current_url + " - Page not found (Response code: " + rescode + ")");
 		}
 	}
 
 	public void checking_links() throws IOException {
+
+		log.info("Testing broken links");
 		for (WebElement link : links) {
 			String urls = link.getAttribute("href");
 			@SuppressWarnings("deprecation")
@@ -74,7 +81,7 @@ public class Ethara_Venues {
 
 			int rescode = httpconnect.getResponseCode();
 			if (rescode >= 400) {
-				System.out.println(urls + " - Page not found (Response code: " + rescode + ")");
+				log.info(urls + " - Page not found (Response code: " + rescode + ")");
 			}
 //			else {
 //				System.out.print1	AW2	Q3eszzrdln(urls + " - Page found");
@@ -85,6 +92,7 @@ public class Ethara_Venues {
 
 	public void venue_lists(WebDriver driver) throws InterruptedException, IOException {
 
+		log.info("Testing venues");
 		for (WebElement venues : venue_lists) {
 			String current_url = venues.getAttribute("href");
 
@@ -100,11 +108,11 @@ public class Ethara_Venues {
 			int rescode = httpConnect.getResponseCode();
 
 			if (rescode >= 400) {
-				System.out.println(current_url + " - Page not found (Response code: " + rescode + ")");
+				log.info(current_url + " - Page not found (Response code: " + rescode + ")");
 			} else {
 				Thread.sleep(2000);
 
-				System.out.println(driver.getTitle()); // Print the title of the new tab
+				log.info("Current page title " + driver.getTitle()); // Print the title of the new tab
 
 				driver.close();
 				driver.switchTo().window(tabs.get(0));
@@ -116,11 +124,12 @@ public class Ethara_Venues {
 	}
 
 	public void etihad_Park_direction(WebDriver driver) throws InterruptedException {
+		log.info("Testing Eithat Park venue redirection ");
 		Etihad_Park.click();
 
 		String Text = option_name.getText();
 
-		System.out.println(Text);
+		log.info(Text);
 
 		if (Text.equals("ABU DHABI")) {
 			for (WebElement Buttons : buttons) {
@@ -138,7 +147,7 @@ public class Ethara_Venues {
 
 			String Text1 = Options.getText();
 
-			System.out.println(Text1);
+			log.info(Text1);
 
 			Thread.sleep(1500);
 

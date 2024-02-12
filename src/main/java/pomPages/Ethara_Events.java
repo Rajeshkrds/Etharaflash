@@ -6,6 +6,7 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -14,6 +15,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class Ethara_Events {
+
+	Logger log = Logger.getLogger(this.getClass().getName());
 
 	@FindBy(xpath = "//a[contains(text(),'More info')]")
 	private List<WebElement> links;
@@ -71,8 +74,10 @@ public class Ethara_Events {
 	}
 
 	public void eventPage(WebDriver driver) throws InterruptedException, IOException {
+		log.info("Clicking on Menu from header");
 		menu_button.click();
 		Thread.sleep(2000);
+		log.info("Clicking on Event Menu");
 		events.click();
 		String current_url = driver.getCurrentUrl();
 
@@ -84,11 +89,13 @@ public class Ethara_Events {
 		int rescode = httpConnect.getResponseCode();
 
 		if (rescode >= 400) {
-			System.out.println(current_url + " - Page not found (Response code: " + rescode + ")");
+			log.info(current_url + " - Page not found (Response code: " + rescode + ")");
 		}
 	}
 
 	public void check_links() throws IOException {
+
+		log.info("Checking for broken links");
 
 		for (WebElement link : links) {
 			String url = link.getAttribute("href");
@@ -99,7 +106,7 @@ public class Ethara_Events {
 
 			int rescode = httpconnect.getResponseCode();
 			if (rescode >= 400) {
-				System.out.println(url + " - Page not found (Response code: " + rescode + ")");
+				log.info(url + " - Page not found (Response code: " + rescode + ")");
 			}
 
 //			else {
@@ -111,6 +118,7 @@ public class Ethara_Events {
 	}
 
 	public void events_category(WebDriver driver) throws InterruptedException {
+		log.info("Testing Event category dropdown");
 
 //		events_categorires_dd.click();
 		events_categorires.click();
@@ -135,17 +143,17 @@ public class Ethara_Events {
 //			events_categorires_dd.click();
 //			System.out.println("Total events in " + options + " is " + events_lists.size());
 
-			System.out.println("Events available under " + options + " : ");
+			log.info("Events available under " + options + " : ");
 
 //			for (WebElement name : event_name) 
 
 			if (events_lists.size() != 0) {
 				for (WebElement events : event_name) {
-					System.out.println(events.getText());
+					log.info(events.getText());
 				}
 			} else {
 //					System.out.println(name.getText());
-				System.out.println("No Events Available");
+				log.info("No Events Available");
 			}
 			System.out.println();
 			Thread.sleep(2000);
@@ -161,6 +169,7 @@ public class Ethara_Events {
 	}
 
 	public void events_location(WebDriver driver) throws InterruptedException {
+		log.info("Testig Event location dropdown");
 		events_location.click();
 
 		for (int i = 0; i < event_dd_options.size(); i++) {
@@ -171,15 +180,15 @@ public class Ethara_Events {
 //			events_categorires_dd.click();
 //			System.out.println("Total events in " + options + " location is " + events_lists.size());
 
-			System.out.println("Events available in " + options + " : ");
+			log.info("Events available in " + options + " : ");
 
 			if (events_lists.size() != 0) {
 				for (WebElement events : event_name) {
-					System.out.println(events.getText());
+					log.info(events.getText());
 				}
 			} else {
 
-				System.out.println("No Events Available");
+				log.info("No Events Available");
 			}
 
 			System.out.println();
@@ -192,6 +201,7 @@ public class Ethara_Events {
 	}
 
 	public void eventsmonth(WebDriver driver) throws InterruptedException {
+		log.info("Testing Event month dropdown");
 		events_month.click();
 
 		for (int i = 0; i < event_dd_options.size(); i++) {
@@ -200,7 +210,7 @@ public class Ethara_Events {
 			driver.findElement(By.xpath("//div[contains(text(),'" + options + "')]")).click();
 //			events_categorires_dd.click();
 //			System.out.println("Total events in " + options + " location is " + events_lists.size());
-			System.out.println("Events available in " + options + " : ");
+			log.info("Events available in " + options + " : ");
 
 			if (events_lists.size() != 0) {
 				for (WebElement events : event_name) {
@@ -208,7 +218,7 @@ public class Ethara_Events {
 				}
 			} else {
 
-				System.out.println("No Events Available");
+				log.info("No Events Available");
 			}
 
 			System.out.println();
@@ -221,6 +231,9 @@ public class Ethara_Events {
 	}
 
 	public void category_and_location(WebDriver driver) throws InterruptedException {
+
+		log.info("Testing Event category and location funcationality ");
+
 		events_categorires.click();
 		for (int i = 0; i < event_dd_options.size(); i++) {
 			String category_options = event_dd_options.get(i).getText();
@@ -229,15 +242,15 @@ public class Ethara_Events {
 			for (int j = 0; j < event_dd_options.size(); j++) {
 				String location_Options = event_dd_options.get(j).getText();
 				driver.findElement(By.xpath("//div[contains(text(),'" + location_Options + "')]")).click();
-				System.out.println("Event available for selected " + category_options + " and " + location_Options);
+				log.info("Event available for selected " + category_options + " and " + location_Options);
 
 				if (events_lists.size() != 0) {
 					for (WebElement events : event_name) {
-						System.out.println(events.getText());
+						log.info(events.getText());
 					}
 				} else {
 
-					System.out.println("No Events Available");
+					log.info("No Events Available");
 				}
 				System.out.println("======================================================================");
 				Thread.sleep(500);
@@ -253,6 +266,9 @@ public class Ethara_Events {
 	}
 
 	public void category_location_month(WebDriver driver) throws InterruptedException {
+
+		log.info("Testing Event filters funcationality ");
+
 		events_categorires.click();
 		for (int i = 0; i < event_dd_options.size(); i++) {
 			String category_options = event_dd_options.get(i).getText();
@@ -271,11 +287,11 @@ public class Ethara_Events {
 
 					if (events_lists.size() != 0) {
 						for (WebElement events : event_name) {
-							System.out.println(events.getText());
+							log.info(events.getText());
 						}
 					} else {
 
-						System.out.println("No Events Available");
+						log.info("No Events Available");
 					}
 
 					System.out.println();
@@ -285,14 +301,13 @@ public class Ethara_Events {
 
 				}
 
-				System.out.println(
-						"====================================================================================");
+				log.info("====================================================================================");
 //				Thread.sleep(500);
 				events_location.click();
 //				Thread.sleep(500);
 
 			}
-			System.out.println("====================================================================================");
+			log.info("====================================================================================");
 //			Thread.sleep(500);
 			events_categorires.click();
 //			Thread.sleep(500);
@@ -300,6 +315,8 @@ public class Ethara_Events {
 	}
 
 	public void checking_CTA(WebDriver driver) throws InterruptedException {
+
+		log.info("Testing CTA redirections ");
 
 		for (int i = 0; i < CTA.size(); i++) {
 			Thread.sleep(2000);
@@ -311,7 +328,7 @@ public class Ethara_Events {
 
 			Thread.sleep(500);
 
-			System.out.println(driver.getTitle());
+			log.info("Current page title " + driver.getTitle());
 			Thread.sleep(1000);
 			driver.close();
 			driver.switchTo().window(tabs.get(0));
@@ -323,6 +340,7 @@ public class Ethara_Events {
 	}
 
 	public void event_details() throws IOException {
+		log.info("Clicking on event and checking for details page");
 		event_detail.click();
 		check_links();
 	}

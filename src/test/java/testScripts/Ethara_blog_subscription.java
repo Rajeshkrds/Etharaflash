@@ -17,6 +17,9 @@ public class Ethara_blog_subscription extends BaseClass {
 	@Test(enabled = true)
 	public void businessForm_positive_tc() throws InterruptedException, IOException {
 		Ethara_Blogs blogs = new Ethara_Blogs(driver);
+
+		log.info(this.getClass().getName());
+
 		blogs.blog_page(driver);
 		String PageTitle = driver.getTitle();
 
@@ -45,6 +48,9 @@ public class Ethara_blog_subscription extends BaseClass {
 
 	@Test(enabled = false)
 	public void businessForm_FormValidation_tc() throws InterruptedException, IOException {
+
+		log.info(this.getClass().getName());
+
 		Ethara_Blogs blogs = new Ethara_Blogs(driver);
 		blogs.blog_page(driver);
 
@@ -90,6 +96,7 @@ public class Ethara_blog_subscription extends BaseClass {
 
 	@Test(enabled = true)
 	public void personalForm_postivie_tc() throws InterruptedException, IOException {
+		log.info(this.getClass().getName());
 		Ethara_Blogs blogs = new Ethara_Blogs(driver);
 		blogs.blog_page(driver);
 

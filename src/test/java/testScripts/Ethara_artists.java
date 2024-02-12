@@ -15,7 +15,7 @@ public class Ethara_artists extends BaseClass {
 
 		webUtilities u = new webUtilities();
 		Ethara_Artists artist = new Ethara_Artists(driver);
-
+		log.info(this.getClass().getName());
 		artist.artists_page();
 
 		// still no title given to this page so validation need to done in future

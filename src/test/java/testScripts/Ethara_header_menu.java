@@ -17,6 +17,8 @@ public class Ethara_header_menu extends BaseClass {
 
 		Ethara_Header header = new Ethara_Header(driver);
 
+		log.info(this.getClass().getName());
+
 		header.menu();
 
 		header.menuOptionsfun(driver);
@@ -27,7 +29,7 @@ public class Ethara_header_menu extends BaseClass {
 
 		header.sustainability(driver);
 
-		header.socialmedia(driver);
+//		header.socialmedia(driver);
 
 		header.close();
 

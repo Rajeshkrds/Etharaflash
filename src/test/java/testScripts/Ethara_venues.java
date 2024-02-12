@@ -16,6 +16,7 @@ public class Ethara_venues extends BaseClass {
 	public void venues_tc() throws IOException, InterruptedException {
 
 		Ethara_Venues venues = new Ethara_Venues(driver);
+		log.info(this.getClass().getName());
 
 		venues.venuesPage(driver);
 

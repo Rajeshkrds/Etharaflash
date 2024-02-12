@@ -5,12 +5,15 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.List;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class Ethara_Artists {
+
+	Logger log = Logger.getLogger(this.getClass().getName());
 
 	@FindBy(xpath = "//span[contains(text(),'Menu')]")
 	private WebElement menu_button;
@@ -41,13 +44,16 @@ public class Ethara_Artists {
 	}
 
 	public void artists_page() throws InterruptedException {
+		log.info("Clicking on Menu from header");
 		menu_button.click();
 		Thread.sleep(1500);
+		log.info("Clicking on Artists menu ");
 		artists.click();
 	}
 
 	public void check_links() throws IOException, InterruptedException {
 
+		log.info("Checking for broken links");
 		for (WebElement Link : links) {
 			String url = Link.getAttribute("href");
 			URL newurl = new URL(url);
@@ -58,7 +64,7 @@ public class Ethara_Artists {
 			int rescode = httpConnect.getResponseCode();
 
 			if (rescode >= 400) {
-				System.out.println(url + " - Page not found (Response code: " + rescode + ")");
+				log.info(url + " - Page not found (Response code: " + rescode + ")");
 			}
 		}
 
@@ -66,12 +72,13 @@ public class Ethara_Artists {
 
 	public void checking_CTA(WebDriver driver) {
 
+		log.info("Cliking on MOre Info CTA");
 		moreInfo.click();
-		System.out.println(driver.getTitle());
+		log.info("Getting Page Title " + driver.getTitle());
 		driver.navigate().back();
 
 		read_button.click();
-		System.out.println(driver.getTitle());
+		log.info("Getting Page Title " + driver.getTitle());
 		driver.navigate().back();
 
 	}

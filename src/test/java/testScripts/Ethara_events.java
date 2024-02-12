@@ -17,6 +17,7 @@ public class Ethara_events extends BaseClass {
 
 		Ethara_Events events = new Ethara_Events(driver);
 		events.eventPage(driver);
+		log.info(this.getClass().getName());
 
 		utilities.validation(driver.getTitle(), "Ethara | Making Moments That Matter");
 
@@ -28,6 +29,8 @@ public class Ethara_events extends BaseClass {
 	@Test
 	public void indiviudal_filter_tc() throws InterruptedException {
 		Ethara_Events events = new Ethara_Events(driver);
+		log.info(this.getClass().getName());
+
 		events.events_category(driver);
 		events.events_location(driver);
 		events.eventsmonth(driver);
@@ -36,6 +39,8 @@ public class Ethara_events extends BaseClass {
 	@Test
 	public void filter_category_and_location_tc() throws InterruptedException, IOException {
 		Ethara_Events events = new Ethara_Events(driver);
+		log.info(this.getClass().getName());
+
 		events.eventPage(driver);
 		events.category_and_location(driver);
 	}
@@ -43,6 +48,8 @@ public class Ethara_events extends BaseClass {
 	@Test
 	public void filter_category_location_month_tc() throws InterruptedException, IOException {
 		Ethara_Events events = new Ethara_Events(driver);
+		log.info(this.getClass().getName());
+
 		events.eventPage(driver);
 		events.category_location_month(driver);
 	}

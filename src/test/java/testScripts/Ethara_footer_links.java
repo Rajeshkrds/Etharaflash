@@ -15,6 +15,7 @@ public class Ethara_footer_links extends BaseClass {
 	public void footerlinks_tc() throws InterruptedException, IOException {
 
 		Ethara_Footer footer = new Ethara_Footer(driver);
+		log.info(this.getClass().getName());
 
 		Actions actions = new Actions(driver);
 		actions.sendKeys(Keys.END).perform();

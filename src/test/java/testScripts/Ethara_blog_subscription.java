@@ -117,6 +117,8 @@ public class Ethara_blog_subscription extends BaseClass {
 	@Test(enabled = false)
 	public void personalForm_FormValidation_tc() throws InterruptedException, IOException {
 		Ethara_Blogs blogs = new Ethara_Blogs(driver);
+		log.info(this.getClass().getName());
+
 		blogs.blog_page(driver);
 
 		Ethara_Blog_subscription personal = new Ethara_Blog_subscription(driver);
@@ -126,29 +128,29 @@ public class Ethara_blog_subscription extends BaseClass {
 		String FN_act_Message = driver.findElement(By.xpath("//span[contains(text(),'Enter First Name')]")).getText();
 		String FN_exp_Message = "Enter First Name";
 		utilities.validation(FN_act_Message, FN_exp_Message);
-		System.out.println(FN_act_Message);
+		log.info(FN_act_Message);
 
 		String LN_act_Message = driver.findElement(By.xpath("//span[contains(text(),'Enter Last Name')]")).getText();
 		String LN_exp_Message = "Enter Last Name";
 		utilities.validation(LN_act_Message, LN_exp_Message);
-		System.out.println(LN_act_Message);
+		log.info(LN_act_Message);
 
 		String EID_act_Message = driver.findElement(By.xpath("//span[contains(text(),'Enter Email ID')]")).getText();
 		String EID_exp_Message = "Enter Email ID";
 		utilities.validation(EID_act_Message, EID_exp_Message);
-		System.out.println(EID_act_Message);
+		log.info(EID_act_Message);
 
 		String interest_act_Message = driver.findElement(By.xpath("//span[contains(text(),'Select Your Interest *')]"))
 				.getText();
 		String interest_exp_Message = "Select Your Interest *";
 		utilities.validation(interest_act_Message, interest_exp_Message);
-		System.out.println(interest_act_Message);
+		log.info(interest_act_Message);
 
 		String country_act_Message = driver.findElement(By.xpath("//span[contains(text(),'Please select a Country')]"))
 				.getText();
 		String country_exp_Message = "Please select a Country";
 		utilities.validation(country_act_Message, country_exp_Message);
-		System.out.println(country_act_Message);
+		log.info(country_act_Message);
 
 		String emirate_act_Message = driver.findElement(By.xpath("//span[contains(text(),'Please select an Emirate')]"))
 				.getText();

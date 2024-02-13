@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testScripts.Ethara_header_menu">
+      <class name="testScripts.Ethara_contact_us">
         <methods>
+          <include name="businessForm_positive_tc"/>
           <include name="launch_bowser"/>
           <include name="close_Browser"/>
-          <include name="menu_options_tc"/>
         </methods>
-      </class> <!-- testScripts.Ethara_header_menu -->
+      </class> <!-- testScripts.Ethara_contact_us -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

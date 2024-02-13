@@ -189,6 +189,7 @@ public class Ethara_Blogs {
 		if (rescode >= 400) {
 			log.info(current_url + " - Page not found (Response code: " + rescode + ")");
 		} else {
+			log.info("Testing blog details page");
 			check_links();
 		}
 

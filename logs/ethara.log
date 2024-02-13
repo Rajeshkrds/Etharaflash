@@ -36,3 +36,283 @@
 2024-02-08 16:40:52,895  [main] INFO  (Ethara_Header.java:247) - Getting Page Title Ethara | About Us
 2024-02-08 16:40:59,468  [main] INFO  (Ethara_Header.java:247) - Getting Page Title Ethara | Our Work
 2024-02-08 16:41:05,895  [main] INFO  (Ethara_Header.java:247) - Getting Page Title Ethara | Our People
+2024-02-12 18:20:07,368  [main] INFO  (BaseClass.java:41) - Setting up Chrome browser
+2024-02-12 18:20:13,111  [main] INFO  (BaseClass.java:73) - Landing page is displayed 
+2024-02-12 18:20:48,089  [main] INFO  (BaseClass.java:41) - Setting up Chrome browser
+2024-02-12 18:21:00,788  [main] INFO  (BaseClass.java:73) - Landing page is displayed 
+2024-02-12 18:21:00,919  [main] INFO  (Ethara_contact_us.java:120) - testScripts.Ethara_contact_us
+2024-02-12 18:21:00,921  [main] INFO  (Ethara_Header.java:103) - Clicking on contact us button ini header
+2024-02-12 18:21:01,156  [main] INFO  (Ethara_Header.java:71) - Testing broken link
+2024-02-12 18:21:02,309  [main] INFO  (BaseClass.java:89) - Taking screenshot for failed test case testScripts.Ethara_contact_us
+2024-02-12 18:21:02,310  [main] INFO  (BaseClass.java:91) - Closing browser
+2024-02-12 18:22:43,294  [main] INFO  (BaseClass.java:41) - Setting up Chrome browser
+2024-02-12 18:22:49,384  [main] INFO  (BaseClass.java:73) - Landing page is displayed 
+2024-02-12 18:22:49,425  [main] INFO  (Ethara_contact_us.java:18) - testScripts.Ethara_contact_us
+2024-02-12 18:22:49,466  [main] INFO  (Ethara_Header.java:103) - Clicking on contact us button ini header
+2024-02-12 18:22:49,648  [main] INFO  (Ethara_Contact_Us.java:99) - Entering Company Name
+2024-02-12 18:22:50,042  [main] INFO  (Ethara_Contact_Us.java:105) - Entering Position
+2024-02-12 18:22:50,181  [main] INFO  (Ethara_Contact_Us.java:111) - Entering First Name
+2024-02-12 18:22:50,299  [main] INFO  (Ethara_Contact_Us.java:115) - Entering Last Name
+2024-02-12 18:22:50,415  [main] INFO  (Ethara_Contact_Us.java:122) - Entering Email Address
+2024-02-12 18:22:50,564  [main] INFO  (Ethara_Contact_Us.java:128) - Selecting Interests from listed options
+2024-02-12 18:22:50,692  [main] INFO  (Ethara_Contact_Us.java:131) - Total interests listed are 12
+2024-02-12 18:22:54,910  [main] INFO  (Ethara_Contact_Us.java:148) - Selecting Country Code from listed options
+2024-02-12 18:22:55,134  [main] INFO  (Ethara_Contact_Us.java:151) - Total country codes available are 242
+2024-02-12 18:22:59,259  [main] INFO  (Ethara_Contact_Us.java:176) - Enter Mobile Number
+2024-02-12 18:23:01,386  [main] INFO  (Ethara_Contact_Us.java:183) - Selecting Country from listed options
+2024-02-12 18:23:01,543  [main] INFO  (Ethara_Contact_Us.java:186) - Total No of countries are 197
+2024-02-12 18:23:17,572  [main] INFO  (BaseClass.java:41) - Setting up Chrome browser
+2024-02-12 18:23:23,489  [main] INFO  (BaseClass.java:73) - Landing page is displayed 
+2024-02-12 18:23:23,572  [main] INFO  (Ethara_contact_us.java:120) - testScripts.Ethara_contact_us
+2024-02-12 18:23:23,574  [main] INFO  (Ethara_Header.java:103) - Clicking on contact us button ini header
+2024-02-12 18:23:23,656  [main] INFO  (Ethara_Contact_Us.java:89) - Checcking of Personal contact form
+2024-02-12 18:23:23,825  [main] INFO  (Ethara_Contact_Us.java:93) - Cliking on Personal radio button
+2024-02-12 18:23:23,941  [main] INFO  (Ethara_Contact_Us.java:227) - Clikcing on Subscription CTA
+2024-02-12 18:23:24,095  [main] ERROR (Ethara_contact_us.java:131) - Enter First Name
+2024-02-12 18:23:24,122  [main] ERROR (Ethara_contact_us.java:136) - Enter Last Name
+2024-02-12 18:23:24,149  [main] ERROR (Ethara_contact_us.java:141) - Enter Email ID
+2024-02-12 18:23:24,176  [main] ERROR (Ethara_contact_us.java:147) - Select Your Interest *
+2024-02-12 18:23:24,205  [main] ERROR (Ethara_contact_us.java:153) - Please select a Country Code
+2024-02-12 18:23:44,536  [main] INFO  (BaseClass.java:89) - Taking screenshot for failed test case testScripts.Ethara_contact_us
+2024-02-12 18:23:44,537  [main] INFO  (BaseClass.java:91) - Closing browser
+2024-02-13 12:41:16,756  [main] INFO  (BaseClass.java:41) - Setting up Chrome browser
+2024-02-13 12:41:19,468  [main] INFO  (BaseClass.java:73) - Landing page is displayed 
+2024-02-13 12:53:22,612  [main] INFO  (BaseClass.java:41) - Setting up Chrome browser
+2024-02-13 12:53:26,101  [main] INFO  (BaseClass.java:73) - Landing page is displayed 
+2024-02-13 12:53:26,194  [main] INFO  (Ethara_Artists.java:47) - Clicking on Menu from header
+2024-02-13 12:53:27,787  [main] INFO  (Ethara_Artists.java:50) - Clicking on Artists menu 
+2024-02-13 12:53:48,147  [main] INFO  (BaseClass.java:89) - Taking screenshot for failed test case testScripts.Ethara_artists
+2024-02-13 12:53:48,148  [main] INFO  (BaseClass.java:91) - Closing browser
+2024-02-13 12:54:43,065  [main] INFO  (BaseClass.java:41) - Setting up Chrome browser
+2024-02-13 12:54:45,250  [main] INFO  (BaseClass.java:73) - Landing page is displayed 
+2024-02-13 12:54:45,321  [main] INFO  (Ethara_Artists.java:47) - Clicking on Menu from header
+2024-02-13 12:54:46,917  [main] INFO  (Ethara_Artists.java:50) - Clicking on Artists menu 
+2024-02-13 12:54:47,023  [main] INFO  (Ethara_Artists.java:56) - Checking for broken links
+2024-02-13 12:54:53,584  [main] INFO  (Ethara_Artists.java:67) - https://twitter.com/etharaofficial - Page not found (Response code: 400)
+2024-02-13 12:54:53,881  [main] INFO  (Ethara_Artists.java:67) - https://www.linkedin.com/company/ethara-official/ - Page not found (Response code: 999)
+2024-02-13 12:55:05,612  [main] INFO  (Ethara_Artists.java:67) - https://twitter.com/etharaofficial - Page not found (Response code: 400)
+2024-02-13 12:55:05,852  [main] INFO  (Ethara_Artists.java:67) - https://www.linkedin.com/company/ethara-official/ - Page not found (Response code: 999)
+2024-02-13 12:55:12,407  [main] INFO  (Ethara_Artists.java:67) - https://twitter.com/etharaofficial - Page not found (Response code: 400)
+2024-02-13 12:55:12,668  [main] INFO  (Ethara_Artists.java:67) - https://www.linkedin.com/company/ethara-official/ - Page not found (Response code: 999)
+2024-02-13 12:55:16,526  [main] INFO  (Ethara_Artists.java:75) - Cliking on MOre Info CTA
+2024-02-13 12:55:16,651  [main] INFO  (Ethara_Artists.java:77) - Getting Page Title Regional Artist Spotlight
+2024-02-13 12:55:16,919  [main] INFO  (Ethara_Artists.java:81) - Getting Page Title Regional Artist Spotlight
+2024-02-13 12:55:18,475  [main] INFO  (BaseClass.java:89) - Taking screenshot for failed test case testScripts.Ethara_artists
+2024-02-13 12:55:18,475  [main] INFO  (BaseClass.java:91) - Closing browser
+2024-02-13 12:57:28,217  [main] INFO  (BaseClass.java:41) - Setting up Chrome browser
+2024-02-13 12:57:30,311  [main] INFO  (BaseClass.java:73) - Landing page is displayed 
+2024-02-13 12:57:30,397  [main] INFO  (Ethara_Artists.java:47) - Clicking on Menu from header
+2024-02-13 12:57:32,008  [main] INFO  (Ethara_Artists.java:50) - Clicking on Artists menu 
+2024-02-13 12:57:32,096  [main] INFO  (Ethara_Artists.java:56) - Checking for broken links
+2024-02-13 12:57:33,211  [main] INFO  (BaseClass.java:89) - Taking screenshot for failed test case testScripts.Ethara_artists
+2024-02-13 12:57:33,212  [main] INFO  (BaseClass.java:91) - Closing browser
+2024-02-13 12:57:59,795  [main] INFO  (BaseClass.java:41) - Setting up Chrome browser
+2024-02-13 12:58:01,934  [main] INFO  (BaseClass.java:73) - Landing page is displayed 
+2024-02-13 12:58:02,022  [main] INFO  (Ethara_Artists.java:47) - Clicking on Menu from header
+2024-02-13 12:58:03,622  [main] INFO  (Ethara_Artists.java:50) - Clicking on Artists menu 
+2024-02-13 12:58:03,720  [main] INFO  (Ethara_Artists.java:75) - Cliking on MOre Info CTA
+2024-02-13 12:58:04,194  [main] INFO  (Ethara_Artists.java:77) - Getting Page Title Regional Artist Spotlight
+2024-02-13 12:58:28,244  [main] INFO  (BaseClass.java:41) - Setting up Chrome browser
+2024-02-13 12:58:31,430  [main] INFO  (BaseClass.java:73) - Landing page is displayed 
+2024-02-13 12:58:31,497  [main] INFO  (Ethara_Artists.java:47) - Clicking on Menu from header
+2024-02-13 12:58:33,210  [main] INFO  (Ethara_Artists.java:50) - Clicking on Artists menu 
+2024-02-13 12:58:33,316  [main] INFO  (Ethara_Artists.java:75) - Cliking on MOre Info CTA
+2024-02-13 12:58:33,848  [main] INFO  (Ethara_Artists.java:77) - Getting Page Title Regional Artist Spotlight
+2024-02-13 12:58:34,099  [main] INFO  (Ethara_Artists.java:81) - Getting Page Title Regional Artist Spotlight
+2024-02-13 12:58:35,351  [main] INFO  (BaseClass.java:89) - Taking screenshot for failed test case testScripts.Ethara_artists
+2024-02-13 12:58:35,351  [main] INFO  (BaseClass.java:91) - Closing browser
+2024-02-13 13:02:16,248  [main] INFO  (BaseClass.java:41) - Setting up Chrome browser
+2024-02-13 13:02:18,979  [main] INFO  (BaseClass.java:73) - Landing page is displayed 
+2024-02-13 13:02:19,072  [main] INFO  (Ethara_Artists.java:47) - Clicking on Menu from header
+2024-02-13 13:02:20,675  [main] INFO  (Ethara_Artists.java:50) - Clicking on Artists menu 
+2024-02-13 13:02:20,761  [main] INFO  (Ethara_Artists.java:75) - Cliking on MOre Info CTA
+2024-02-13 13:02:21,262  [main] INFO  (Ethara_Artists.java:77) - Getting Page Title Regional Artist Spotlight
+2024-02-13 13:02:43,390  [main] INFO  (BaseClass.java:89) - Taking screenshot for failed test case testScripts.Ethara_artists
+2024-02-13 13:02:43,391  [main] INFO  (BaseClass.java:91) - Closing browser
+2024-02-13 13:04:35,116  [main] INFO  (BaseClass.java:41) - Setting up Chrome browser
+2024-02-13 13:04:37,204  [main] INFO  (BaseClass.java:73) - Landing page is displayed 
+2024-02-13 13:04:37,290  [main] INFO  (Ethara_Artists.java:47) - Clicking on Menu from header
+2024-02-13 13:04:38,880  [main] INFO  (Ethara_Artists.java:50) - Clicking on Artists menu 
+2024-02-13 13:04:38,977  [main] INFO  (Ethara_Artists.java:75) - Cliking on MOre Info CTA
+2024-02-13 13:04:39,379  [main] INFO  (Ethara_Artists.java:77) - Getting Page Title Regional Artist Spotlight
+2024-02-13 13:04:45,922  [main] INFO  (Ethara_Artists.java:81) - Getting Page Title Regional Artist Spotlight
+2024-02-13 13:04:49,771  [main] INFO  (Ethara_Artists.java:89) - 
+2024-02-13 13:04:50,205  [main] INFO  (BaseClass.java:89) - Taking screenshot for failed test case testScripts.Ethara_artists
+2024-02-13 13:04:50,206  [main] INFO  (BaseClass.java:91) - Closing browser
+2024-02-13 13:05:18,045  [main] INFO  (BaseClass.java:41) - Setting up Chrome browser
+2024-02-13 13:05:19,751  [main] INFO  (BaseClass.java:73) - Landing page is displayed 
+2024-02-13 13:05:19,867  [main] INFO  (Ethara_Artists.java:47) - Clicking on Menu from header
+2024-02-13 13:05:21,559  [main] INFO  (Ethara_Artists.java:50) - Clicking on Artists menu 
+2024-02-13 13:05:21,649  [main] INFO  (Ethara_Artists.java:75) - Cliking on MOre Info CTA
+2024-02-13 13:05:22,129  [main] INFO  (Ethara_Artists.java:77) - Getting Page Title Regional Artist Spotlight
+2024-02-13 13:05:25,268  [main] INFO  (Ethara_Artists.java:81) - Getting Page Title Regional Artist Spotlight
+2024-02-13 13:05:28,951  [main] INFO  (Ethara_Artists.java:89) - Regional Artist Spotlight
+2024-02-13 13:05:29,450  [main] INFO  (BaseClass.java:89) - Taking screenshot for failed test case testScripts.Ethara_artists
+2024-02-13 13:05:29,451  [main] INFO  (BaseClass.java:91) - Closing browser
+2024-02-13 14:12:40,349  [main] INFO  (BaseClass.java:41) - Setting up Chrome browser
+2024-02-13 14:12:43,324  [main] INFO  (BaseClass.java:73) - Landing page is displayed 
+2024-02-13 14:12:43,385  [main] INFO  (Ethara_Artists.java:47) - Clicking on Menu from header
+2024-02-13 14:12:44,973  [main] INFO  (Ethara_Artists.java:50) - Clicking on Artists menu 
+2024-02-13 14:12:45,047  [main] INFO  (Ethara_Artists.java:75) - Cliking on MOre Info CTA
+2024-02-13 14:12:45,500  [main] INFO  (Ethara_Artists.java:77) - Getting Page Title Regional Artist Spotlight
+2024-02-13 14:12:53,464  [main] INFO  (Ethara_Artists.java:81) - Getting Page Title Regional Artist Spotlight
+2024-02-13 14:12:56,649  [main] INFO  (Ethara_Artists.java:89) - Regional Artist Spotlight
+2024-02-13 14:12:57,224  [main] INFO  (BaseClass.java:89) - Taking screenshot for failed test case testScripts.Ethara_artists
+2024-02-13 14:12:57,226  [main] INFO  (BaseClass.java:91) - Closing browser
+2024-02-13 14:14:59,140  [main] INFO  (BaseClass.java:41) - Setting up Chrome browser
+2024-02-13 14:15:02,088  [main] INFO  (BaseClass.java:73) - Landing page is displayed 
+2024-02-13 14:15:02,152  [main] INFO  (Ethara_Artists.java:47) - Clicking on Menu from header
+2024-02-13 14:15:03,739  [main] INFO  (Ethara_Artists.java:50) - Clicking on Artists menu 
+2024-02-13 14:15:03,848  [main] INFO  (Ethara_Artists.java:56) - Checking for broken links
+2024-02-13 14:15:04,899  [main] INFO  (BaseClass.java:89) - Taking screenshot for failed test case testScripts.Ethara_artists
+2024-02-13 14:15:04,899  [main] INFO  (BaseClass.java:91) - Closing browser
+2024-02-13 14:15:34,947  [main] INFO  (BaseClass.java:41) - Setting up Chrome browser
+2024-02-13 14:15:37,896  [main] INFO  (BaseClass.java:73) - Landing page is displayed 
+2024-02-13 14:15:37,983  [main] INFO  (Ethara_Artists.java:47) - Clicking on Menu from header
+2024-02-13 14:15:39,565  [main] INFO  (Ethara_Artists.java:50) - Clicking on Artists menu 
+2024-02-13 14:15:39,652  [main] INFO  (Ethara_Artists.java:75) - Cliking on MOre Info CTA
+2024-02-13 14:15:40,093  [main] INFO  (Ethara_Artists.java:77) - Getting Page Title Regional Artist Spotlight
+2024-02-13 14:15:41,263  [main] INFO  (Ethara_Artists.java:82) - Getting Page Title Regional Artist Spotlight
+2024-02-13 14:15:41,291  [main] INFO  (BaseClass.java:91) - Closing browser
+2024-02-13 14:16:32,762  [main] INFO  (BaseClass.java:41) - Setting up Chrome browser
+2024-02-13 14:16:35,488  [main] INFO  (BaseClass.java:73) - Landing page is displayed 
+2024-02-13 14:16:35,577  [main] INFO  (Ethara_Artists.java:47) - Clicking on Menu from header
+2024-02-13 14:16:37,194  [main] INFO  (Ethara_Artists.java:50) - Clicking on Artists menu 
+2024-02-13 14:16:39,392  [main] INFO  (Ethara_Artists.java:90) - Regional Artist Spotlight
+2024-02-13 14:16:39,899  [main] INFO  (BaseClass.java:89) - Taking screenshot for failed test case testScripts.Ethara_artists
+2024-02-13 14:16:39,899  [main] INFO  (BaseClass.java:91) - Closing browser
+2024-02-13 14:18:53,521  [main] INFO  (BaseClass.java:41) - Setting up Chrome browser
+2024-02-13 14:18:55,587  [main] INFO  (BaseClass.java:73) - Landing page is displayed 
+2024-02-13 14:18:55,661  [main] INFO  (Ethara_Artists.java:47) - Clicking on Menu from header
+2024-02-13 14:18:57,248  [main] INFO  (Ethara_Artists.java:50) - Clicking on Artists menu 
+2024-02-13 14:18:59,449  [main] INFO  (Ethara_Artists.java:90) - Regional Artist Spotlight
+2024-02-13 14:19:01,605  [main] INFO  (Ethara_Artists.java:113) - No You tube content is present
+2024-02-13 14:19:01,610  [main] INFO  (BaseClass.java:91) - Closing browser
+2024-02-13 14:31:18,842  [main] INFO  (BaseClass.java:41) - Setting up Chrome browser
+2024-02-13 14:31:21,070  [main] INFO  (BaseClass.java:73) - Landing page is displayed 
+2024-02-13 14:31:21,170  [main] INFO  (Ethara_Artists.java:52) - Clicking on Menu from header
+2024-02-13 14:31:22,758  [main] INFO  (Ethara_Artists.java:55) - Clicking on Artists menu 
+2024-02-13 14:31:24,989  [main] INFO  (Ethara_Artists.java:95) - Regional Artist Spotlight
+2024-02-13 14:31:28,117  [main] INFO  (BaseClass.java:89) - Taking screenshot for failed test case testScripts.Ethara_artists
+2024-02-13 14:31:28,118  [main] INFO  (BaseClass.java:91) - Closing browser
+2024-02-13 14:36:16,013  [main] INFO  (BaseClass.java:41) - Setting up Chrome browser
+2024-02-13 14:36:18,044  [main] INFO  (BaseClass.java:73) - Landing page is displayed 
+2024-02-13 14:36:18,111  [main] INFO  (Ethara_Artists.java:52) - Clicking on Menu from header
+2024-02-13 14:36:19,695  [main] INFO  (Ethara_Artists.java:55) - Clicking on Artists menu 
+2024-02-13 14:36:21,864  [main] INFO  (Ethara_Artists.java:95) - Regional Artist Spotlight
+2024-02-13 14:36:24,554  [main] INFO  (BaseClass.java:89) - Taking screenshot for failed test case testScripts.Ethara_artists
+2024-02-13 14:36:24,557  [main] INFO  (BaseClass.java:91) - Closing browser
+2024-02-13 14:37:57,555  [main] INFO  (BaseClass.java:41) - Setting up Chrome browser
+2024-02-13 14:37:59,637  [main] INFO  (BaseClass.java:73) - Landing page is displayed 
+2024-02-13 14:37:59,707  [main] INFO  (Ethara_Artists.java:52) - Clicking on Menu from header
+2024-02-13 14:38:01,287  [main] INFO  (Ethara_Artists.java:55) - Clicking on Artists menu 
+2024-02-13 14:38:03,503  [main] INFO  (Ethara_Artists.java:95) - Regional Artist Spotlight
+2024-02-13 14:38:20,270  [main] INFO  (Ethara_Artists.java:114) - 
+2024-02-13 14:38:32,102  [main] INFO  (Ethara_Artists.java:114) - Spotify
+2024-02-13 14:38:35,198  [main] INFO  (Ethara_Artists.java:114) - Blu Fiefer
+2024-02-13 14:38:38,823  [main] INFO  (Ethara_Artists.java:114) - 
+2024-02-13 14:38:42,686  [main] INFO  (Ethara_Artists.java:114) - 
+2024-02-13 14:38:44,897  [main] INFO  (Ethara_Artists.java:130) - No You tube content available
+2024-02-13 14:38:44,907  [main] INFO  (Ethara_Artists.java:142) - Spotify not available for this artist 
+2024-02-13 14:38:44,911  [main] INFO  (BaseClass.java:91) - Closing browser
+2024-02-13 14:42:24,354  [main] INFO  (BaseClass.java:41) - Setting up Chrome browser
+2024-02-13 14:42:27,574  [main] INFO  (BaseClass.java:73) - Landing page is displayed 
+2024-02-13 14:42:27,639  [main] INFO  (Ethara_Artists.java:52) - Clicking on Menu from header
+2024-02-13 14:42:29,234  [main] INFO  (Ethara_Artists.java:55) - Clicking on Artists menu 
+2024-02-13 14:42:31,459  [main] INFO  (Ethara_Artists.java:95) - Regional Artist Spotlight
+2024-02-13 14:42:41,210  [main] INFO  (Ethara_Artists.java:114) - Blu Fiefer - YouTube
+2024-02-13 14:42:47,154  [main] INFO  (Ethara_Artists.java:114) - Spotify
+2024-02-13 14:42:51,389  [main] INFO  (Ethara_Artists.java:114) - Blu Fiefer
+2024-02-13 14:42:55,110  [main] INFO  (Ethara_Artists.java:114) - 
+2024-02-13 14:42:58,668  [main] INFO  (Ethara_Artists.java:114) - 
+2024-02-13 14:43:01,014  [main] INFO  (Ethara_Artists.java:130) - No You tube content available
+2024-02-13 14:43:01,023  [main] INFO  (Ethara_Artists.java:142) - Spotify not available for this artist 
+2024-02-13 14:43:01,029  [main] INFO  (BaseClass.java:91) - Closing browser
+2024-02-13 14:48:45,817  [main] INFO  (BaseClass.java:41) - Setting up Chrome browser
+2024-02-13 14:48:48,042  [main] INFO  (BaseClass.java:73) - Landing page is displayed 
+2024-02-13 14:48:48,112  [main] INFO  (Ethara_Artists.java:52) - Clicking on Menu from header
+2024-02-13 14:48:49,693  [main] INFO  (Ethara_Artists.java:55) - Clicking on Artists menu 
+2024-02-13 14:48:51,914  [main] INFO  (Ethara_Artists.java:95) - Regional Artist Spotlight
+2024-02-13 14:48:53,925  [main] INFO  (Ethara_Artists.java:101) - Testing socail media pages of artists
+2024-02-13 14:48:59,626  [main] INFO  (Ethara_Artists.java:115) - Blu Fiefer - YouTube
+2024-02-13 14:49:08,790  [main] INFO  (Ethara_Artists.java:115) - Spotify
+2024-02-13 14:49:16,213  [main] INFO  (Ethara_Artists.java:115) - Blu Fiefer | Facebook
+2024-02-13 14:49:20,912  [main] INFO  (Ethara_Artists.java:115) - 
+2024-02-13 14:49:28,559  [main] INFO  (Ethara_Artists.java:115) - 
+2024-02-13 14:49:33,670  [main] INFO  (Ethara_Artists.java:123) - Testing YouTube iframe
+2024-02-13 14:49:34,291  [main] INFO  (BaseClass.java:89) - Taking screenshot for failed test case testScripts.Ethara_artists
+2024-02-13 14:49:34,292  [main] INFO  (BaseClass.java:91) - Closing browser
+2024-02-13 14:52:35,221  [main] INFO  (BaseClass.java:41) - Setting up Chrome browser
+2024-02-13 14:52:37,272  [main] INFO  (BaseClass.java:73) - Landing page is displayed 
+2024-02-13 14:52:37,341  [main] INFO  (Ethara_Artists.java:52) - Clicking on Menu from header
+2024-02-13 14:52:38,926  [main] INFO  (Ethara_Artists.java:55) - Clicking on Artists menu 
+2024-02-13 14:52:41,124  [main] INFO  (Ethara_Artists.java:95) - Regional Artist Spotlight
+2024-02-13 14:52:43,143  [main] INFO  (Ethara_Artists.java:101) - Testing socail media pages of artists
+2024-02-13 14:52:49,513  [main] INFO  (Ethara_Artists.java:115) - 
+2024-02-13 14:53:10,267  [main] INFO  (BaseClass.java:41) - Setting up Chrome browser
+2024-02-13 14:53:12,218  [main] INFO  (BaseClass.java:73) - Landing page is displayed 
+2024-02-13 14:53:12,298  [main] INFO  (Ethara_Artists.java:50) - Clicking on Menu from header
+2024-02-13 14:53:13,893  [main] INFO  (Ethara_Artists.java:53) - Clicking on Artists menu 
+2024-02-13 14:53:16,096  [main] INFO  (Ethara_Artists.java:93) - Regional Artist Spotlight
+2024-02-13 14:53:18,102  [main] INFO  (Ethara_Artists.java:121) -  YouTube iframe Present
+2024-02-13 14:53:18,128  [main] INFO  (Ethara_Artists.java:135) - Testing spotify iframe
+2024-02-13 14:53:20,826  [main] INFO  (BaseClass.java:91) - Closing browser
+2024-02-13 14:56:07,788  [main] INFO  (BaseClass.java:42) - Setting up Chrome browser
+2024-02-13 14:56:10,644  [main] INFO  (BaseClass.java:74) - Landing page is displayed 
+2024-02-13 14:56:10,723  [main] INFO  (Ethara_Artists.java:52) - Clicking on Menu from header
+2024-02-13 14:56:12,298  [main] INFO  (Ethara_Artists.java:55) - Clicking on Artists menu 
+2024-02-13 14:56:12,462  [main] INFO  (Ethara_Artists.java:80) - Cliking on MOre Info CTA
+2024-02-13 14:56:12,869  [main] INFO  (Ethara_Artists.java:82) - Getting Page Title Regional Artist Spotlight
+2024-02-13 14:56:14,018  [main] INFO  (Ethara_Artists.java:87) - Getting Page Title Regional Artist Spotlight
+2024-02-13 14:56:14,040  [main] INFO  (BaseClass.java:92) - Closing browser
+2024-02-13 14:57:42,208  [main] INFO  (BaseClass.java:42) - Setting up Chrome browser
+2024-02-13 14:57:45,162  [main] INFO  (BaseClass.java:74) - Landing page is displayed 
+2024-02-13 14:57:45,227  [main] INFO  (Ethara_Artists.java:52) - Clicking on Menu from header
+2024-02-13 14:57:46,816  [main] INFO  (Ethara_Artists.java:55) - Clicking on Artists menu 
+2024-02-13 14:57:46,963  [main] INFO  (Ethara_Artists.java:80) - Cliking on MOre Info CTA
+2024-02-13 14:57:47,461  [main] INFO  (Ethara_Artists.java:82) - Getting Page Title Regional Artist Spotlight
+2024-02-13 14:57:48,465  [main] INFO  (Ethara_Artists.java:86) - Cliking on Read Q&A
+2024-02-13 14:57:48,568  [main] INFO  (Ethara_Artists.java:88) - Getting Page Title Regional Artist Spotlight
+2024-02-13 14:57:48,643  [main] INFO  (BaseClass.java:92) - Closing browser
+2024-02-13 14:58:28,814  [main] INFO  (BaseClass.java:42) - Setting up Chrome browser
+2024-02-13 14:58:30,882  [main] INFO  (BaseClass.java:74) - Landing page is displayed 
+2024-02-13 14:58:30,948  [main] INFO  (Ethara_Artists.java:52) - Clicking on Menu from header
+2024-02-13 14:58:32,524  [main] INFO  (Ethara_Artists.java:55) - Clicking on Artists menu 
+2024-02-13 14:58:32,699  [main] INFO  (Ethara_Artists.java:80) - Cliking on MOre Info CTA
+2024-02-13 14:58:33,099  [main] INFO  (Ethara_Artists.java:82) - Getting Page Title Regional Artist Spotlight
+2024-02-13 14:58:34,100  [main] INFO  (Ethara_Artists.java:86) - Cliking on Read Q&A
+2024-02-13 14:58:35,216  [main] INFO  (Ethara_Artists.java:89) - Getting Page Title 
+2024-02-13 14:58:35,289  [main] INFO  (BaseClass.java:92) - Closing browser
+2024-02-13 15:00:23,305  [main] INFO  (BaseClass.java:41) - Setting up Chrome browser
+2024-02-13 15:00:25,354  [main] INFO  (BaseClass.java:73) - Landing page is displayed 
+2024-02-13 15:00:26,595  [main] INFO  (BaseClass.java:89) - Taking screenshot for failed test case testScripts.Ethara_artists
+2024-02-13 15:00:26,595  [main] INFO  (BaseClass.java:91) - Closing browser
+2024-02-13 15:04:43,744  [main] INFO  (BaseClass.java:41) - Setting up Chrome browser
+2024-02-13 15:04:47,339  [main] INFO  (BaseClass.java:73) - Landing page is displayed 
+2024-02-13 15:04:47,376  [main] INFO  (Ethara_artists.java:16) - Ethara_artists
+2024-02-13 15:04:47,412  [main] INFO  (Ethara_Artists.java:52) - Clicking on Menu from header
+2024-02-13 15:04:49,005  [main] INFO  (Ethara_Artists.java:55) - Clicking on Artists menu 
+2024-02-13 15:04:49,176  [main] INFO  (Ethara_Artists.java:80) - Cliking on MOre Info CTA
+2024-02-13 15:04:49,608  [main] INFO  (Ethara_Artists.java:82) - Getting Page Title Regional Artist Spotlight
+2024-02-13 15:04:50,621  [main] INFO  (Ethara_Artists.java:86) - Cliking on Read Q&A
+2024-02-13 15:04:51,754  [main] INFO  (Ethara_Artists.java:89) - Getting Page Title 
+2024-02-13 15:04:51,834  [main] INFO  (BaseClass.java:91) - Closing browser
+2024-02-13 15:27:21,135  [main] INFO  (BaseClass.java:41) - Setting up Chrome browser
+2024-02-13 15:27:23,033  [main] INFO  (BaseClass.java:73) - Landing page is displayed 
+2024-02-13 15:27:23,078  [main] INFO  (Ethara_contact_us.java:18) - testScripts.Ethara_contact_us
+2024-02-13 15:27:23,132  [main] INFO  (Ethara_Header.java:98) - Clicking on contact us button ini header
+2024-02-13 15:27:24,492  [main] INFO  (BaseClass.java:89) - Taking screenshot for failed test case testScripts.Ethara_contact_us
+2024-02-13 15:27:24,493  [main] INFO  (BaseClass.java:91) - Closing browser
+2024-02-13 15:28:55,706  [main] INFO  (BaseClass.java:41) - Setting up Chrome browser
+2024-02-13 15:28:57,851  [main] INFO  (BaseClass.java:73) - Landing page is displayed 
+2024-02-13 15:28:57,887  [main] INFO  (Ethara_contact_us.java:18) - testScripts.Ethara_contact_us
+2024-02-13 15:28:57,920  [main] INFO  (Ethara_Header.java:103) - Clicking on contact us button ini header
+2024-02-13 15:28:58,122  [main] INFO  (Ethara_Contact_Us.java:99) - Entering Company Name
+2024-02-13 15:28:58,372  [main] INFO  (Ethara_Contact_Us.java:105) - Entering Position
+2024-02-13 15:28:58,520  [main] INFO  (Ethara_Contact_Us.java:111) - Entering First Name
+2024-02-13 15:28:58,647  [main] INFO  (Ethara_Contact_Us.java:115) - Entering Last Name
+2024-02-13 15:28:58,745  [main] INFO  (Ethara_Contact_Us.java:122) - Entering Email Address
+2024-02-13 15:28:58,885  [main] INFO  (Ethara_Contact_Us.java:128) - Selecting Interests from listed options
+2024-02-13 15:28:58,988  [main] INFO  (Ethara_Contact_Us.java:131) - Total interests listed are 12
+2024-02-13 15:29:03,166  [main] INFO  (Ethara_Contact_Us.java:148) - Selecting Country Code from listed options
+2024-02-13 15:29:03,354  [main] INFO  (Ethara_Contact_Us.java:151) - Total country codes available are 242

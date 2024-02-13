@@ -76,7 +76,7 @@ public class Ethara_Contact_Us {
 	}
 
 	public void select_business() {
-		log.info("Checcking of business contact form");
+		log.info("Checking of business contact form");
 		if (business_radio_button.isSelected())
 			System.out.println("Aleadry select");
 		else {

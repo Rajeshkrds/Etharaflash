@@ -57,34 +57,34 @@ public class Ethara_contact_us extends BaseClass {
 		String CN_act_Message = driver.findElement(By.xpath("//span[contains(text(),'Enter Company name')]")).getText();
 		String CN_exp_Message = "Enter Company name";
 		utilities.validation(CN_act_Message, CN_exp_Message);
-		log.info(CN_act_Message);
+		log.error(CN_act_Message);
 
 		String FN_act_Message = driver.findElement(By.xpath("//span[contains(text(),'Enter First Name')]")).getText();
 		String FN_exp_Message = "Enter First Name";
 		utilities.validation(FN_act_Message, FN_exp_Message);
-		log.info(FN_act_Message);
+		log.error(FN_act_Message);
 
 		String LN_act_Message = driver.findElement(By.xpath("//span[contains(text(),'Enter Last Name')]")).getText();
 		String LN_exp_Message = "Enter Last Name";
 		utilities.validation(LN_act_Message, LN_exp_Message);
-		log.info(LN_act_Message);
+		log.error(LN_act_Message);
 
 		String EID_act_Message = driver.findElement(By.xpath("//span[contains(text(),'Enter Email ID')]")).getText();
 		String EID_exp_Message = "Enter Email ID";
 		utilities.validation(EID_act_Message, EID_exp_Message);
-		log.info(EID_act_Message);
+		log.error(EID_act_Message);
 
 		String interest_act_Message = driver.findElement(By.xpath("//span[contains(text(),'Select Your Interest *')]"))
 				.getText();
 		String interest_exp_Message = "Select Your Interest *";
 		utilities.validation(interest_act_Message, interest_exp_Message);
-		log.info(interest_act_Message);
+		log.error(interest_act_Message);
 
 		String country_act_Message = driver.findElement(By.xpath("//span[contains(text(),'Please select a Country')]"))
 				.getText();
 		String country_exp_Message = "Please select a Country";
 		utilities.validation(country_act_Message, country_exp_Message);
-		log.info(country_act_Message);
+		log.error(country_act_Message);
 //
 //		String emirate_act_Message = driver.findElement(By.xpath("//span[contains(text(),'Please select an Emirate')]")).getText();
 //		String emirate_exp_Message = "Please select an Emirate";
@@ -114,7 +114,7 @@ public class Ethara_contact_us extends BaseClass {
 		personal.subscribe();
 	}
 
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void personalForm_FormValidation_tc() throws IOException {
 		Ethara_Header hp_header = new Ethara_Header(driver);
 		log.info(this.getClass().getName());
@@ -128,29 +128,29 @@ public class Ethara_contact_us extends BaseClass {
 		String FN_act_Message = driver.findElement(By.xpath("//span[contains(text(),'Enter First Name')]")).getText();
 		String FN_exp_Message = "Enter First Name";
 		utilities.validation(FN_act_Message, FN_exp_Message);
-		log.info(FN_act_Message);
+		log.error(FN_act_Message);
 
 		String LN_act_Message = driver.findElement(By.xpath("//span[contains(text(),'Enter Last Name')]")).getText();
 		String LN_exp_Message = "Enter Last Name";
 		utilities.validation(LN_act_Message, LN_exp_Message);
-		log.info(LN_act_Message);
+		log.error(LN_act_Message);
 
 		String EID_act_Message = driver.findElement(By.xpath("//span[contains(text(),'Enter Email ID')]")).getText();
 		String EID_exp_Message = "Enter Email ID";
 		utilities.validation(EID_act_Message, EID_exp_Message);
-		log.info(EID_act_Message);
+		log.error(EID_act_Message);
 
 		String interest_act_Message = driver.findElement(By.xpath("//span[contains(text(),'Select Your Interest *')]"))
 				.getText();
 		String interest_exp_Message = "Select Your Interest *";
 		utilities.validation(interest_act_Message, interest_exp_Message);
-		log.info(interest_act_Message);
+		log.error(interest_act_Message);
 
 		String country_act_Message = driver.findElement(By.xpath("//span[contains(text(),'Please select a Country')]"))
 				.getText();
 		String country_exp_Message = "Please select a Country";
 		utilities.validation(country_act_Message, country_exp_Message);
-		log.info(country_act_Message);
+		log.error(country_act_Message);
 
 		String emirate_act_Message = driver.findElement(By.xpath("//span[contains(text(),'Please select an Emirate')]"))
 				.getText();

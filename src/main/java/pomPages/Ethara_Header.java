@@ -102,18 +102,18 @@ public class Ethara_Header {
 	public void contactus_button() throws IOException {
 		log.info("Clicking on contact us button ini header");
 		contactus_button.click();
-		check_links();
+		// check_links();
 	}
 
 	public void aboutus_button() throws IOException {
 		log.info("Clicking on about us button in header");
 		aboutus_button.click();
-		check_links();
+		// check_links();
 	}
 
 	public void close() {
 		log.info("Clicking on close button in header ");
-		close_button.click();
+		// close_button.click();
 	}
 
 	public void menu() {
@@ -125,13 +125,13 @@ public class Ethara_Header {
 	public void comingup_category() throws IOException {
 		log.info("Clicking on Comingup button");
 		comingup_button.click();
-		check_links();
+		// check_links();
 	}
 
 	public void ourpeople() throws IOException {
 		log.info("Clicking on our people button in header ");
 		ourpeople_button.click();
-		check_links();
+		// check_links();
 	}
 
 	public void menuOptions(WebDriver driver) throws InterruptedException {

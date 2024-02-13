@@ -9,13 +9,14 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">6,222</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">7,721</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testScripts.Ethara_header_menu</td><td><a href="#m0">menu_options_tc</a></td><td rowspan="1">1707390612067</td><td rowspan="1">51</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testScripts.Ethara_contact_us</td><td><a href="#m0">businessForm_positive_tc</a></td><td rowspan="1">1707818243065</td><td rowspan="1">165</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">testScripts.Ethara_header_menu#menu_options_tc</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.apache.log4j.Logger.info(Object)&quot; because &quot;this.log&quot; is null
-	at pomPages.Ethara_Header.menu(Ethara_Header.java:120)
-	at testScripts.Ethara_header_menu.menu_options_tc(Ethara_header_menu.java:22)
+<h2>Default test</h2><h3 id="m0">testScripts.Ethara_contact_us#businessForm_positive_tc</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getCurrentUrl()&quot; because &quot;this.driver&quot; is null
+	at pomPages.Ethara_Header.check_links(Ethara_Header.java:72)
+	at pomPages.Ethara_Header.contactus_button(Ethara_Header.java:100)
+	at testScripts.Ethara_contact_us.businessForm_positive_tc(Ethara_contact_us.java:20)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)

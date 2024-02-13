@@ -583,3 +583,117 @@
 2024-02-13 16:58:35,434  [main] INFO  (Ethara_Artists.java:101) - Cliking on Read Q&A
 2024-02-13 16:58:36,718  [main] INFO  (Ethara_Artists.java:104) - Getting Page Title 
 2024-02-13 16:58:36,900  [main] INFO  (BaseClass.java:93) - Closing browser
+2024-02-13 18:04:14,611  [main] INFO  (BaseClass.java:43) - Setting up Chrome browser
+2024-02-13 18:04:16,467  [main] INFO  (BaseClass.java:75) - Landing page is displayed 
+2024-02-13 18:04:16,497  [main] INFO  (testListners.java:13) - Running Test : artists_listing_page_tc
+2024-02-13 18:04:16,560  [main] INFO  (Ethara_Artists.java:52) - Clicking on Menu from header
+2024-02-13 18:04:18,154  [main] INFO  (Ethara_Artists.java:55) - Clicking on Artists menu 
+2024-02-13 18:04:18,859  [main] INFO  (Ethara_Artists.java:68) - Artist listing page is displayed 
+2024-02-13 18:04:18,886  [main] INFO  (Ethara_Artists.java:95) - Cliking on MOre Info CTA
+2024-02-13 18:04:19,042  [main] INFO  (Ethara_Artists.java:97) - Getting Page Title Regional Artist Spotlight
+2024-02-13 18:04:20,045  [main] INFO  (Ethara_Artists.java:101) - Cliking on Read Q&A
+2024-02-13 18:04:21,269  [main] INFO  (Ethara_Artists.java:104) - Getting Page Title 
+2024-02-13 18:04:21,393  [main] INFO  (BaseClass.java:93) - Closing browser
+2024-02-13 18:06:04,996  [main] INFO  (BaseClass.java:43) - Setting up Chrome browser
+2024-02-13 18:06:07,821  [main] INFO  (BaseClass.java:75) - Landing page is displayed 
+2024-02-13 18:06:07,851  [main] INFO  (testListners.java:13) - Running Test : Validation of Artist Listing Page
+2024-02-13 18:06:07,916  [main] INFO  (Ethara_Artists.java:52) - Clicking on Menu from header
+2024-02-13 18:06:09,539  [main] INFO  (Ethara_Artists.java:55) - Clicking on Artists menu 
+2024-02-13 18:06:10,059  [main] INFO  (Ethara_Artists.java:68) - Artist listing page is displayed 
+2024-02-13 18:06:10,087  [main] INFO  (Ethara_Artists.java:95) - Cliking on MOre Info CTA
+2024-02-13 18:06:10,278  [main] INFO  (Ethara_Artists.java:97) - Getting Page Title Regional Artist Spotlight
+2024-02-13 18:06:11,294  [main] INFO  (Ethara_Artists.java:101) - Cliking on Read Q&A
+2024-02-13 18:06:12,425  [main] INFO  (Ethara_Artists.java:104) - Getting Page Title 
+2024-02-13 18:06:12,527  [main] INFO  (testListners.java:17) - Test Case null  is Passed
+2024-02-13 18:06:12,535  [main] INFO  (BaseClass.java:93) - Closing browser
+2024-02-13 18:08:36,860  [main] INFO  (BaseClass.java:43) - Setting up Chrome browser
+2024-02-13 18:08:38,945  [main] INFO  (BaseClass.java:75) - Landing page is displayed 
+2024-02-13 18:08:39,007  [main] INFO  (testListners.java:13) - Running Test : Validation of Artist Listing Page
+2024-02-13 18:08:39,075  [main] INFO  (Ethara_Artists.java:52) - Clicking on Menu from header
+2024-02-13 18:08:40,668  [main] INFO  (Ethara_Artists.java:55) - Clicking on Artists menu 
+2024-02-13 18:08:41,073  [main] INFO  (Ethara_Artists.java:68) - Artist listing page is displayed 
+2024-02-13 18:08:41,202  [main] INFO  (Ethara_Artists.java:95) - Cliking on MOre Info CTA
+2024-02-13 18:08:41,393  [main] INFO  (Ethara_Artists.java:97) - Getting Page Title Regional Artist Spotlight
+2024-02-13 18:08:42,394  [main] INFO  (Ethara_Artists.java:101) - Cliking on Read Q&A
+2024-02-13 18:08:43,533  [main] INFO  (Ethara_Artists.java:104) - Getting Page Title 
+2024-02-13 18:08:43,613  [main] INFO  (testListners.java:17) - [Test Passed] Validation of Artist Listing Page
+2024-02-13 18:08:43,625  [main] INFO  (BaseClass.java:93) - Closing browser
+2024-02-13 18:11:39,210  [main] INFO  (BaseClass.java:43) - Setting up Chrome browser
+2024-02-13 18:11:41,591  [main] INFO  (BaseClass.java:75) - Landing page is displayed 
+2024-02-13 18:11:41,616  [main] INFO  (testListners.java:13) - [Running Test] :- Validation of Contact us business form
+2024-02-13 18:11:41,676  [main] INFO  (Ethara_Header.java:103) - Clicking on contact us button ini header
+2024-02-13 18:11:41,805  [main] INFO  (Ethara_Contact_Us.java:99) - Entering Company Name
+2024-02-13 18:11:42,209  [main] INFO  (Ethara_Contact_Us.java:105) - Entering Position
+2024-02-13 18:11:42,561  [main] INFO  (Ethara_Contact_Us.java:111) - Entering First Name
+2024-02-13 18:11:42,805  [main] INFO  (Ethara_Contact_Us.java:115) - Entering Last Name
+2024-02-13 18:11:42,977  [main] INFO  (Ethara_Contact_Us.java:122) - Entering Email Address
+2024-02-13 18:11:43,312  [main] INFO  (Ethara_Contact_Us.java:128) - Selecting Interests from listed options
+2024-02-13 18:11:43,468  [main] INFO  (Ethara_Contact_Us.java:131) - Total interests listed are 12
+2024-02-13 18:11:47,622  [main] INFO  (Ethara_Contact_Us.java:148) - Selecting Country Code from listed options
+2024-02-13 18:11:47,821  [main] INFO  (Ethara_Contact_Us.java:151) - Total country codes available are 242
+2024-02-13 18:11:51,934  [main] INFO  (Ethara_Contact_Us.java:176) - Enter Mobile Number
+2024-02-13 18:11:54,071  [main] INFO  (Ethara_Contact_Us.java:183) - Selecting Country from listed options
+2024-02-13 18:11:54,227  [main] INFO  (Ethara_Contact_Us.java:186) - Total No of countries are 197
+2024-02-13 18:12:01,201  [main] INFO  (Ethara_Contact_Us.java:200) - Selecting Emirates 
+2024-02-13 18:12:03,379  [main] INFO  (Ethara_Contact_Us.java:236) - Checking for CAPTCHA
+2024-02-13 18:12:23,451  [main] ERROR (testListners.java:21) - [Test Failed] :- Validation of Contact us business form
+2024-02-13 18:12:23,649  [main] INFO  (BaseClass.java:91) - Taking screenshot for failed test case testScripts.Ethara_contact_us
+2024-02-13 18:12:23,649  [main] INFO  (BaseClass.java:93) - Closing browser
+2024-02-13 18:12:23,827  [main] INFO  (testListners.java:13) - [Running Test] :- Validation of Contact us Personal form Error Message
+2024-02-13 18:12:23,836  [main] INFO  (Ethara_Header.java:103) - Clicking on contact us button ini header
+2024-02-13 18:12:23,940  [main] ERROR (testListners.java:21) - [Test Failed] :- Validation of Contact us Personal form Error Message
+2024-02-13 18:12:23,956  [main] INFO  (testListners.java:13) - [Running Test] :- Validation of Contact us Personal form
+2024-02-13 18:12:23,962  [main] ERROR (testListners.java:25) - [Test Skipped] :- Validation of Contact us Personal form
+2024-02-13 18:15:38,493  [main] INFO  (BaseClass.java:43) - Setting up Chrome browser
+2024-02-13 18:15:40,617  [main] INFO  (BaseClass.java:75) - Landing page is displayed 
+2024-02-13 18:15:40,642  [main] INFO  (testListners.java:13) - [Running Test] :- Validation of Contact us business form
+2024-02-13 18:15:40,701  [main] INFO  (Ethara_Header.java:103) - Clicking on contact us button ini header
+2024-02-13 18:15:40,872  [main] INFO  (Ethara_Contact_Us.java:99) - Entering Company Name
+2024-02-13 18:15:41,271  [main] INFO  (Ethara_Contact_Us.java:105) - Entering Position
+2024-02-13 18:15:41,452  [main] INFO  (Ethara_Contact_Us.java:111) - Entering First Name
+2024-02-13 18:15:41,597  [main] INFO  (Ethara_Contact_Us.java:115) - Entering Last Name
+2024-02-13 18:15:41,736  [main] INFO  (Ethara_Contact_Us.java:122) - Entering Email Address
+2024-02-13 18:15:41,868  [main] INFO  (Ethara_Contact_Us.java:128) - Selecting Interests from listed options
+2024-02-13 18:15:42,000  [main] INFO  (Ethara_Contact_Us.java:131) - Total interests listed are 12
+2024-02-13 18:15:46,170  [main] INFO  (Ethara_Contact_Us.java:148) - Selecting Country Code from listed options
+2024-02-13 18:15:46,392  [main] INFO  (Ethara_Contact_Us.java:151) - Total country codes available are 242
+2024-02-13 18:15:50,504  [main] INFO  (Ethara_Contact_Us.java:176) - Enter Mobile Number
+2024-02-13 18:15:52,638  [main] INFO  (Ethara_Contact_Us.java:183) - Selecting Country from listed options
+2024-02-13 18:15:52,785  [main] INFO  (Ethara_Contact_Us.java:186) - Total No of countries are 197
+2024-02-13 18:16:00,228  [main] INFO  (Ethara_Contact_Us.java:200) - Selecting Emirates 
+2024-02-13 18:16:02,488  [main] INFO  (Ethara_Contact_Us.java:236) - Checking for CAPTCHA
+2024-02-13 18:16:22,554  [main] ERROR (testListners.java:21) - [Test Failed] :- Validation of Contact us business form
+2024-02-13 18:16:22,823  [main] INFO  (BaseClass.java:91) - Taking screenshot for failed test case testScripts.Ethara_contact_us
+2024-02-13 18:16:22,823  [main] INFO  (BaseClass.java:93) - Closing browser
+2024-02-13 18:16:23,040  [main] INFO  (testListners.java:13) - [Running Test] :- Validation of Contact us Personal form Error Message
+2024-02-13 18:16:23,043  [main] INFO  (Ethara_Header.java:103) - Clicking on contact us button ini header
+2024-02-13 18:16:23,162  [main] ERROR (testListners.java:21) - [Test Failed] :- Validation of Contact us Personal form Error Message
+2024-02-13 18:16:23,181  [main] INFO  (testListners.java:13) - [Running Test] :- Validation of Contact us Personal form
+2024-02-13 18:16:23,188  [main] ERROR (testListners.java:25) - [Test Skipped] :- Validation of Contact us Personal form
+2024-02-13 18:18:56,924  [main] INFO  (BaseClass.java:43) - Setting up Chrome browser
+2024-02-13 18:18:59,919  [main] INFO  (BaseClass.java:75) - Landing page is displayed 
+2024-02-13 18:18:59,951  [main] INFO  (testListners.java:13) - [Running Test] :- Validation of Contact us business form
+2024-02-13 18:19:00,016  [main] INFO  (Ethara_Header.java:103) - Clicking on contact us button ini header
+2024-02-13 18:19:00,207  [main] INFO  (Ethara_Contact_Us.java:99) - Entering Company Name
+2024-02-13 18:19:00,707  [main] INFO  (Ethara_Contact_Us.java:105) - Entering Position
+2024-02-13 18:19:00,885  [main] INFO  (Ethara_Contact_Us.java:111) - Entering First Name
+2024-02-13 18:19:01,176  [main] INFO  (Ethara_Contact_Us.java:115) - Entering Last Name
+2024-02-13 18:19:01,538  [main] INFO  (Ethara_Contact_Us.java:122) - Entering Email Address
+2024-02-13 18:19:01,687  [main] INFO  (Ethara_Contact_Us.java:128) - Selecting Interests from listed options
+2024-02-13 18:19:01,839  [main] INFO  (Ethara_Contact_Us.java:131) - Total interests listed are 12
+2024-02-13 18:19:05,990  [main] INFO  (Ethara_Contact_Us.java:148) - Selecting Country Code from listed options
+2024-02-13 18:19:06,205  [main] INFO  (Ethara_Contact_Us.java:151) - Total country codes available are 242
+2024-02-13 18:19:10,331  [main] INFO  (Ethara_Contact_Us.java:176) - Enter Mobile Number
+2024-02-13 18:19:12,465  [main] INFO  (Ethara_Contact_Us.java:183) - Selecting Country from listed options
+2024-02-13 18:19:12,624  [main] INFO  (Ethara_Contact_Us.java:186) - Total No of countries are 197
+2024-02-13 18:19:19,673  [main] INFO  (Ethara_Contact_Us.java:200) - Selecting Emirates 
+2024-02-13 18:19:21,861  [main] INFO  (Ethara_Contact_Us.java:236) - Checking for CAPTCHA
+2024-02-13 18:19:21,928  [main] INFO  (Ethara_Contact_Us.java:238) - Google CAPTCHA present
+2024-02-13 18:19:21,928  [main] INFO  (Ethara_Contact_Us.java:227) - Clikcing on Subscription CTA
+2024-02-13 18:19:24,021  [main] INFO  (testListners.java:17) - [Test Passed] :- Validation of Contact us business form
+2024-02-13 18:19:24,026  [main] INFO  (BaseClass.java:93) - Closing browser
+2024-02-13 18:19:24,232  [main] INFO  (testListners.java:13) - [Running Test] :- Validation of Contact us Personal form Error Message
+2024-02-13 18:19:24,238  [main] INFO  (Ethara_Header.java:103) - Clicking on contact us button ini header
+2024-02-13 18:19:24,394  [main] ERROR (testListners.java:21) - [Test Failed] :- Validation of Contact us Personal form Error Message
+2024-02-13 18:19:24,436  [main] INFO  (testListners.java:13) - [Running Test] :- Validation of Contact us Personal form
+2024-02-13 18:19:24,446  [main] ERROR (testListners.java:25) - [Test Skipped] :- Validation of Contact us Personal form

@@ -68,7 +68,7 @@ public class Ethara_Contact_Us {
 	@FindBy(xpath = "//span[contains(text(),'Enter Company name')]")
 	private WebElement C_nameErrorMess;
 
-	@FindBy(xpath = "/div[@class=\"grecaptcha-logo\"]")
+	@FindBy(xpath = "//div[@class=\"grecaptcha-logo\"]")
 	private WebElement captacha;
 
 	public Ethara_Contact_Us(WebDriver driver) {

@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testScripts.Ethara_artists">
+      <class name="testScripts.Ethara_contact_us">
         <methods>
+          <include name="personalForm_FormValidation_tc"/>
           <include name="launch_bowser"/>
           <include name="close_Browser"/>
-          <include name="artists_listing_page_tc"/>
+          <include name="personalForm_postivie_tc"/>
         </methods>
-      </class> <!-- testScripts.Ethara_artists -->
+      </class> <!-- testScripts.Ethara_contact_us -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

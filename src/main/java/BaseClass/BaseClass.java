@@ -20,9 +20,9 @@ import org.testng.annotations.Parameters;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import utilities.Config;
-import utilities.listners;
+import utilities.testListners;
 
-@Listeners({ listners.class })
+@Listeners({ testListners.class })
 public class BaseClass {
 	public static Logger log;
 	Config readConfig = new Config();

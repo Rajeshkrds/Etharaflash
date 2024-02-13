@@ -13,7 +13,7 @@ public class Ethara_artists extends BaseClass {
 	@Test(testName = "Artisit listing page", description = "Validation of Artist Listing Page")
 	public void artists_listing_page_tc() throws InterruptedException, IOException {
 
-		log.info(getClass().getName());
+//		log.info(getClass().getName());
 		webUtilities u = new webUtilities();
 		Ethara_Artists artist = new Ethara_Artists(driver);
 
@@ -29,7 +29,7 @@ public class Ethara_artists extends BaseClass {
 	@Test(testName = "Artisit Details page", description = "Validation of Artist Details Page")
 	public void artist_details_page_tc() throws IOException, InterruptedException {
 
-		log.info(getClass().getName());
+		// log.info(getClass().getName());
 
 		Ethara_Artists artist = new Ethara_Artists(driver);
 		artist.artists_page(driver);

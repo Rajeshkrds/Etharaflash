@@ -1,12 +1,15 @@
 package utilities;
 
+import org.apache.log4j.Logger;
+import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-import jdk.internal.org.jline.utils.Log;
+public class listners implements ITestListener {
 
-public class listners {
+	public static final Logger log = Logger.getLogger(listners.class);
 
-	public void getTestName(ITestResult result) {
-		Log.info("Test Case :" + result.getMethod().getMethodName());
+	public void onTestStart(ITestResult result) {
+
+		log.info("Execute Test : " + result.getMethod().getDescription());
 	}
 }

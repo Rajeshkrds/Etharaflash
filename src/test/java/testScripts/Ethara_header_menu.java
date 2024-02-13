@@ -12,12 +12,12 @@ public class Ethara_header_menu extends BaseClass {
 
 	webUtilities utilities = new webUtilities();
 
-	@Test
+	@Test(testName = "Header Menu", description = "Validation of Header Menus")
 	public void menu_options_tc() throws InterruptedException, IOException {
 
 		Ethara_Header header = new Ethara_Header(driver);
 
-		log.info(this.getClass().getName());
+//		log.info(this.getClass().getName());
 
 		header.menu();
 

@@ -316,3 +316,270 @@
 2024-02-13 15:28:58,988  [main] INFO  (Ethara_Contact_Us.java:131) - Total interests listed are 12
 2024-02-13 15:29:03,166  [main] INFO  (Ethara_Contact_Us.java:148) - Selecting Country Code from listed options
 2024-02-13 15:29:03,354  [main] INFO  (Ethara_Contact_Us.java:151) - Total country codes available are 242
+2024-02-13 15:36:24,996  [main] INFO  (BaseClass.java:41) - Setting up Chrome browser
+2024-02-13 15:36:27,313  [main] INFO  (BaseClass.java:73) - Landing page is displayed 
+2024-02-13 15:36:27,357  [main] INFO  (Ethara_artists.java:16) - testScripts.Ethara_artists
+2024-02-13 15:36:27,413  [main] INFO  (Ethara_Artists.java:52) - Clicking on Menu from header
+2024-02-13 15:36:29,362  [main] INFO  (Ethara_Artists.java:55) - Clicking on Artists menu 
+2024-02-13 15:36:29,833  [main] INFO  (Ethara_Artists.java:68) - Artist listing page is displayed 
+2024-02-13 15:36:29,879  [main] INFO  (Ethara_Artists.java:95) - Cliking on MOre Info CTA
+2024-02-13 15:36:29,951  [main] INFO  (Ethara_Artists.java:97) - Getting Page Title Regional Artist Spotlight
+2024-02-13 15:36:30,976  [main] INFO  (Ethara_Artists.java:101) - Cliking on Read Q&A
+2024-02-13 15:36:32,093  [main] INFO  (Ethara_Artists.java:104) - Getting Page Title 
+2024-02-13 15:36:32,177  [main] INFO  (BaseClass.java:91) - Closing browser
+2024-02-13 15:44:41,427  [main] INFO  (BaseClass.java:41) - Setting up Chrome browser
+2024-02-13 15:44:43,715  [main] INFO  (BaseClass.java:73) - Landing page is displayed 
+2024-02-13 15:44:43,756  [main] INFO  (Ethara_artists.java:16) - testScripts.Ethara_artists
+2024-02-13 15:44:43,789  [main] INFO  (Ethara_Artists.java:52) - Clicking on Menu from header
+2024-02-13 15:44:45,379  [main] INFO  (Ethara_Artists.java:55) - Clicking on Artists menu 
+2024-02-13 15:44:45,909  [main] INFO  (Ethara_Artists.java:68) - Artist listing page is displayed 
+2024-02-13 15:44:45,967  [main] INFO  (Ethara_Artists.java:95) - Cliking on MOre Info CTA
+2024-02-13 15:44:46,207  [main] INFO  (Ethara_Artists.java:97) - Getting Page Title Regional Artist Spotlight
+2024-02-13 15:44:47,216  [main] INFO  (Ethara_Artists.java:101) - Cliking on Read Q&A
+2024-02-13 15:44:48,438  [main] INFO  (Ethara_Artists.java:104) - Getting Page Title 
+2024-02-13 15:44:48,549  [main] INFO  (BaseClass.java:91) - Closing browser
+2024-02-13 15:52:05,378  [main] INFO  (BaseClass.java:44) - Setting up Chrome browser
+2024-02-13 15:52:09,777  [main] INFO  (BaseClass.java:76) - Landing page is displayed 
+2024-02-13 15:52:09,818  [main] INFO  (Ethara_artists.java:16) - testScripts.Ethara_artists
+2024-02-13 15:52:09,867  [main] INFO  (Ethara_Artists.java:52) - Clicking on Menu from header
+2024-02-13 15:52:11,525  [main] INFO  (Ethara_Artists.java:55) - Clicking on Artists menu 
+2024-02-13 15:52:12,192  [main] INFO  (Ethara_Artists.java:68) - Artist listing page is displayed 
+2024-02-13 15:52:12,252  [main] INFO  (Ethara_Artists.java:95) - Cliking on MOre Info CTA
+2024-02-13 15:52:12,395  [main] INFO  (Ethara_Artists.java:97) - Getting Page Title Regional Artist Spotlight
+2024-02-13 15:52:13,410  [main] INFO  (Ethara_Artists.java:101) - Cliking on Read Q&A
+2024-02-13 15:52:14,523  [main] INFO  (Ethara_Artists.java:104) - Getting Page Title Regional Artist Spotlight
+2024-02-13 15:52:14,581  [main] INFO  (BaseClass.java:94) - Closing browser
+2024-02-13 15:53:51,552  [main] INFO  (BaseClass.java:44) - Setting up Chrome browser
+2024-02-13 15:53:56,253  [main] INFO  (BaseClass.java:76) - Landing page is displayed 
+2024-02-13 15:53:56,298  [main] INFO  (Ethara_artists.java:16) - testScripts.Ethara_artists
+2024-02-13 15:53:56,339  [main] INFO  (Ethara_Artists.java:52) - Clicking on Menu from header
+2024-02-13 15:53:57,934  [main] INFO  (Ethara_Artists.java:55) - Clicking on Artists menu 
+2024-02-13 15:53:58,477  [main] INFO  (Ethara_Artists.java:68) - Artist listing page is displayed 
+2024-02-13 15:53:58,494  [main] INFO  (Ethara_Artists.java:95) - Cliking on MOre Info CTA
+2024-02-13 15:53:58,693  [main] INFO  (Ethara_Artists.java:97) - Getting Page Title Regional Artist Spotlight
+2024-02-13 15:53:59,707  [main] INFO  (Ethara_Artists.java:101) - Cliking on Read Q&A
+2024-02-13 15:54:00,854  [main] INFO  (Ethara_Artists.java:104) - Getting Page Title 
+2024-02-13 15:54:01,016  [main] INFO  (BaseClass.java:94) - Closing browser
+2024-02-13 15:54:55,540  [main] INFO  (BaseClass.java:44) - Setting up Chrome browser
+2024-02-13 15:54:57,391  [main] INFO  (BaseClass.java:76) - Landing page is displayed 
+2024-02-13 15:54:57,427  [main] INFO  (Ethara_artists.java:16) - testScripts.Ethara_artists
+2024-02-13 15:54:57,474  [main] INFO  (Ethara_Artists.java:52) - Clicking on Menu from header
+2024-02-13 15:54:59,060  [main] INFO  (Ethara_Artists.java:55) - Clicking on Artists menu 
+2024-02-13 15:54:59,959  [main] INFO  (Ethara_Artists.java:68) - Artist listing page is displayed 
+2024-02-13 15:54:59,986  [main] INFO  (Ethara_Artists.java:95) - Cliking on MOre Info CTA
+2024-02-13 15:55:00,094  [main] INFO  (Ethara_Artists.java:97) - Getting Page Title Regional Artist Spotlight
+2024-02-13 15:55:01,100  [main] INFO  (Ethara_Artists.java:101) - Cliking on Read Q&A
+2024-02-13 15:55:02,433  [main] INFO  (Ethara_Artists.java:104) - Getting Page Title Regional Artist Spotlight
+2024-02-13 15:55:02,540  [main] INFO  (BaseClass.java:94) - Closing browser
+2024-02-13 15:59:20,673  [main] INFO  (BaseClass.java:44) - Setting up Chrome browser
+2024-02-13 15:59:29,059  [main] INFO  (BaseClass.java:76) - Landing page is displayed 
+2024-02-13 15:59:29,090  [main] INFO  (Ethara_artists.java:16) - testScripts.Ethara_artists
+2024-02-13 15:59:29,125  [main] INFO  (Ethara_Artists.java:52) - Clicking on Menu from header
+2024-02-13 15:59:30,719  [main] INFO  (Ethara_Artists.java:55) - Clicking on Artists menu 
+2024-02-13 15:59:31,215  [main] INFO  (Ethara_Artists.java:68) - Artist listing page is displayed 
+2024-02-13 15:59:31,254  [main] INFO  (Ethara_Artists.java:95) - Cliking on MOre Info CTA
+2024-02-13 15:59:31,372  [main] INFO  (Ethara_Artists.java:97) - Getting Page Title Regional Artist Spotlight
+2024-02-13 15:59:32,382  [main] INFO  (Ethara_Artists.java:101) - Cliking on Read Q&A
+2024-02-13 15:59:33,511  [main] INFO  (Ethara_Artists.java:104) - Getting Page Title 
+2024-02-13 15:59:33,637  [main] INFO  (BaseClass.java:94) - Closing browser
+2024-02-13 16:16:14,800  [main] INFO  (BaseClass.java:44) - Setting up Chrome browser
+2024-02-13 16:16:19,045  [main] INFO  (BaseClass.java:76) - Landing page is displayed 
+2024-02-13 16:16:19,082  [main] INFO  (Ethara_artists.java:16) - testScripts.Ethara_artists
+2024-02-13 16:16:19,119  [main] INFO  (Ethara_Artists.java:52) - Clicking on Menu from header
+2024-02-13 16:16:20,718  [main] INFO  (Ethara_Artists.java:55) - Clicking on Artists menu 
+2024-02-13 16:16:21,015  [main] INFO  (Ethara_Artists.java:68) - Artist listing page is displayed 
+2024-02-13 16:16:21,105  [main] INFO  (Ethara_Artists.java:95) - Cliking on MOre Info CTA
+2024-02-13 16:16:21,192  [main] INFO  (Ethara_Artists.java:97) - Getting Page Title Regional Artist Spotlight
+2024-02-13 16:16:22,195  [main] INFO  (Ethara_Artists.java:101) - Cliking on Read Q&A
+2024-02-13 16:16:23,324  [main] INFO  (Ethara_Artists.java:104) - Getting Page Title Regional Artist Spotlight
+2024-02-13 16:16:23,372  [main] INFO  (BaseClass.java:94) - Closing browser
+2024-02-13 16:21:54,067  [main] INFO  (BaseClass.java:43) - Setting up Chrome browser
+2024-02-13 16:22:01,525  [main] INFO  (BaseClass.java:75) - Landing page is displayed 
+2024-02-13 16:22:01,553  [main] INFO  (listners.java:12) - Executing Test :artists_listing_page_tc
+2024-02-13 16:22:01,563  [main] INFO  (Ethara_artists.java:16) - testScripts.Ethara_artists
+2024-02-13 16:22:01,601  [main] INFO  (Ethara_Artists.java:52) - Clicking on Menu from header
+2024-02-13 16:22:03,195  [main] INFO  (Ethara_Artists.java:55) - Clicking on Artists menu 
+2024-02-13 16:22:03,678  [main] INFO  (Ethara_Artists.java:68) - Artist listing page is displayed 
+2024-02-13 16:22:03,738  [main] INFO  (Ethara_Artists.java:95) - Cliking on MOre Info CTA
+2024-02-13 16:22:03,857  [main] INFO  (Ethara_Artists.java:97) - Getting Page Title Regional Artist Spotlight
+2024-02-13 16:22:04,859  [main] INFO  (Ethara_Artists.java:101) - Cliking on Read Q&A
+2024-02-13 16:22:05,967  [main] INFO  (Ethara_Artists.java:104) - Getting Page Title Regional Artist Spotlight
+2024-02-13 16:22:05,997  [main] INFO  (BaseClass.java:93) - Closing browser
+2024-02-13 16:24:17,362  [main] INFO  (BaseClass.java:43) - Setting up Chrome browser
+2024-02-13 16:24:21,348  [main] INFO  (BaseClass.java:75) - Landing page is displayed 
+2024-02-13 16:24:21,381  [main] INFO  (listners.java:12) - Executing Test :artists_listing_page_tc
+2024-02-13 16:24:21,389  [main] INFO  (Ethara_artists.java:16) - testScripts.Ethara_artists
+2024-02-13 16:24:21,481  [main] INFO  (Ethara_Artists.java:52) - Clicking on Menu from header
+2024-02-13 16:24:23,083  [main] INFO  (Ethara_Artists.java:55) - Clicking on Artists menu 
+2024-02-13 16:24:23,721  [main] INFO  (Ethara_Artists.java:68) - Artist listing page is displayed 
+2024-02-13 16:24:23,765  [main] INFO  (Ethara_Artists.java:95) - Cliking on MOre Info CTA
+2024-02-13 16:24:23,886  [main] INFO  (Ethara_Artists.java:97) - Getting Page Title Regional Artist Spotlight
+2024-02-13 16:24:24,889  [main] INFO  (Ethara_Artists.java:101) - Cliking on Read Q&A
+2024-02-13 16:24:25,995  [main] INFO  (Ethara_Artists.java:104) - Getting Page Title 
+2024-02-13 16:24:26,093  [main] INFO  (BaseClass.java:93) - Closing browser
+2024-02-13 16:25:16,578  [main] INFO  (BaseClass.java:43) - Setting up Chrome browser
+2024-02-13 16:25:18,687  [main] INFO  (BaseClass.java:75) - Landing page is displayed 
+2024-02-13 16:25:18,720  [main] INFO  (listners.java:12) - Executing Test :null
+2024-02-13 16:25:18,734  [main] INFO  (Ethara_artists.java:16) - testScripts.Ethara_artists
+2024-02-13 16:25:18,787  [main] INFO  (Ethara_Artists.java:52) - Clicking on Menu from header
+2024-02-13 16:25:20,386  [main] INFO  (Ethara_Artists.java:55) - Clicking on Artists menu 
+2024-02-13 16:25:20,657  [main] INFO  (Ethara_Artists.java:68) - Artist listing page is displayed 
+2024-02-13 16:25:20,688  [main] INFO  (Ethara_Artists.java:95) - Cliking on MOre Info CTA
+2024-02-13 16:25:24,051  [main] INFO  (Ethara_Artists.java:97) - Getting Page Title Regional Artist Spotlight
+2024-02-13 16:25:25,052  [main] INFO  (Ethara_Artists.java:101) - Cliking on Read Q&A
+2024-02-13 16:25:26,625  [main] INFO  (Ethara_Artists.java:104) - Getting Page Title Regional Artist Spotlight
+2024-02-13 16:25:26,690  [main] INFO  (BaseClass.java:93) - Closing browser
+2024-02-13 16:26:13,874  [main] INFO  (BaseClass.java:43) - Setting up Chrome browser
+2024-02-13 16:26:16,738  [main] INFO  (BaseClass.java:75) - Landing page is displayed 
+2024-02-13 16:26:16,770  [main] INFO  (listners.java:12) - Executing Test :artists_listing_page_tc
+2024-02-13 16:26:16,779  [main] INFO  (Ethara_artists.java:16) - testScripts.Ethara_artists
+2024-02-13 16:26:16,829  [main] INFO  (Ethara_Artists.java:52) - Clicking on Menu from header
+2024-02-13 16:26:18,457  [main] INFO  (Ethara_Artists.java:55) - Clicking on Artists menu 
+2024-02-13 16:26:18,805  [main] INFO  (Ethara_Artists.java:68) - Artist listing page is displayed 
+2024-02-13 16:26:18,924  [main] INFO  (Ethara_Artists.java:95) - Cliking on MOre Info CTA
+2024-02-13 16:26:19,085  [main] INFO  (Ethara_Artists.java:97) - Getting Page Title Regional Artist Spotlight
+2024-02-13 16:26:20,086  [main] INFO  (Ethara_Artists.java:101) - Cliking on Read Q&A
+2024-02-13 16:26:21,220  [main] INFO  (Ethara_Artists.java:104) - Getting Page Title 
+2024-02-13 16:26:21,319  [main] INFO  (BaseClass.java:93) - Closing browser
+2024-02-13 16:27:07,555  [main] INFO  (BaseClass.java:43) - Setting up Chrome browser
+2024-02-13 16:27:20,216  [main] INFO  (BaseClass.java:75) - Landing page is displayed 
+2024-02-13 16:27:20,241  [main] INFO  (listners.java:12) - Executing Test :artists_listing_page_tc
+2024-02-13 16:27:20,253  [main] INFO  (Ethara_artists.java:16) - testScripts.Ethara_artists
+2024-02-13 16:27:20,307  [main] INFO  (Ethara_Artists.java:52) - Clicking on Menu from header
+2024-02-13 16:27:21,896  [main] INFO  (Ethara_Artists.java:55) - Clicking on Artists menu 
+2024-02-13 16:27:22,229  [main] INFO  (Ethara_Artists.java:68) - Artist listing page is displayed 
+2024-02-13 16:27:22,505  [main] INFO  (Ethara_Artists.java:95) - Cliking on MOre Info CTA
+2024-02-13 16:27:22,591  [main] INFO  (Ethara_Artists.java:97) - Getting Page Title Regional Artist Spotlight
+2024-02-13 16:27:23,593  [main] INFO  (Ethara_Artists.java:101) - Cliking on Read Q&A
+2024-02-13 16:27:24,724  [main] INFO  (Ethara_Artists.java:104) - Getting Page Title 
+2024-02-13 16:27:24,827  [main] INFO  (BaseClass.java:93) - Closing browser
+2024-02-13 16:31:06,848  [main] INFO  (BaseClass.java:43) - Setting up Chrome browser
+2024-02-13 16:31:12,538  [main] INFO  (BaseClass.java:75) - Landing page is displayed 
+2024-02-13 16:31:12,589  [main] INFO  (listners.java:12) - Executing Test :null
+2024-02-13 16:31:12,600  [main] INFO  (Ethara_artists.java:16) - testScripts.Ethara_artists
+2024-02-13 16:31:12,639  [main] INFO  (Ethara_Artists.java:52) - Clicking on Menu from header
+2024-02-13 16:31:14,224  [main] INFO  (Ethara_Artists.java:55) - Clicking on Artists menu 
+2024-02-13 16:31:14,745  [main] INFO  (Ethara_Artists.java:68) - Artist listing page is displayed 
+2024-02-13 16:31:14,786  [main] INFO  (Ethara_Artists.java:95) - Cliking on MOre Info CTA
+2024-02-13 16:31:14,885  [main] INFO  (Ethara_Artists.java:97) - Getting Page Title Regional Artist Spotlight
+2024-02-13 16:31:15,896  [main] INFO  (Ethara_Artists.java:101) - Cliking on Read Q&A
+2024-02-13 16:31:17,022  [main] INFO  (Ethara_Artists.java:104) - Getting Page Title Regional Artist Spotlight
+2024-02-13 16:31:17,051  [main] INFO  (BaseClass.java:93) - Closing browser
+2024-02-13 16:34:59,087  [main] INFO  (BaseClass.java:43) - Setting up Chrome browser
+2024-02-13 16:35:03,006  [main] INFO  (BaseClass.java:75) - Landing page is displayed 
+2024-02-13 16:35:03,028  [main] INFO  (listners.java:12) - Executing Test :null
+2024-02-13 16:35:03,037  [main] INFO  (Ethara_artists.java:32) - testScripts.Ethara_artists
+2024-02-13 16:35:03,065  [main] INFO  (Ethara_Artists.java:52) - Clicking on Menu from header
+2024-02-13 16:35:04,656  [main] INFO  (Ethara_Artists.java:55) - Clicking on Artists menu 
+2024-02-13 16:35:05,155  [main] INFO  (Ethara_Artists.java:68) - Artist listing page is displayed 
+2024-02-13 16:35:07,243  [main] INFO  (Ethara_Artists.java:113) - Regional Artist Spotlight
+2024-02-13 16:35:09,671  [main] INFO  (Ethara_Artists.java:129) - Testing socail media pages of artists
+2024-02-13 16:35:53,951  [main] INFO  (BaseClass.java:43) - Setting up Chrome browser
+2024-02-13 16:35:57,517  [main] INFO  (BaseClass.java:75) - Landing page is displayed 
+2024-02-13 16:35:57,547  [main] INFO  (listners.java:12) - Executing Test :[TestClass name=class testScripts.Ethara_artists]
+2024-02-13 16:35:57,561  [main] INFO  (Ethara_artists.java:16) - testScripts.Ethara_artists
+2024-02-13 16:35:57,649  [main] INFO  (Ethara_Artists.java:52) - Clicking on Menu from header
+2024-02-13 16:35:59,251  [main] INFO  (Ethara_Artists.java:55) - Clicking on Artists menu 
+2024-02-13 16:35:59,813  [main] INFO  (Ethara_Artists.java:68) - Artist listing page is displayed 
+2024-02-13 16:35:59,846  [main] INFO  (Ethara_Artists.java:95) - Cliking on MOre Info CTA
+2024-02-13 16:35:59,930  [main] INFO  (Ethara_Artists.java:97) - Getting Page Title Regional Artist Spotlight
+2024-02-13 16:36:00,935  [main] INFO  (Ethara_Artists.java:101) - Cliking on Read Q&A
+2024-02-13 16:36:02,035  [main] INFO  (Ethara_Artists.java:104) - Getting Page Title 
+2024-02-13 16:36:02,231  [main] INFO  (BaseClass.java:93) - Closing browser
+2024-02-13 16:36:41,074  [main] INFO  (BaseClass.java:43) - Setting up Chrome browser
+2024-02-13 16:37:19,336  [main] INFO  (BaseClass.java:43) - Setting up Chrome browser
+2024-02-13 16:37:22,849  [main] INFO  (BaseClass.java:75) - Landing page is displayed 
+2024-02-13 16:37:22,880  [main] INFO  (listners.java:12) - Executing Test :Validation of artisit listing page
+2024-02-13 16:37:22,892  [main] INFO  (Ethara_artists.java:16) - testScripts.Ethara_artists
+2024-02-13 16:37:22,938  [main] INFO  (Ethara_Artists.java:52) - Clicking on Menu from header
+2024-02-13 16:37:24,546  [main] INFO  (Ethara_Artists.java:55) - Clicking on Artists menu 
+2024-02-13 16:37:24,862  [main] INFO  (Ethara_Artists.java:68) - Artist listing page is displayed 
+2024-02-13 16:37:24,938  [main] INFO  (Ethara_Artists.java:95) - Cliking on MOre Info CTA
+2024-02-13 16:37:25,098  [main] INFO  (Ethara_Artists.java:97) - Getting Page Title Regional Artist Spotlight
+2024-02-13 16:37:26,126  [main] INFO  (Ethara_Artists.java:101) - Cliking on Read Q&A
+2024-02-13 16:37:27,249  [main] INFO  (Ethara_Artists.java:104) - Getting Page Title Regional Artist Spotlight
+2024-02-13 16:37:27,281  [main] INFO  (BaseClass.java:93) - Closing browser
+2024-02-13 16:38:29,543  [main] INFO  (BaseClass.java:43) - Setting up Chrome browser
+2024-02-13 16:38:40,241  [main] INFO  (BaseClass.java:75) - Landing page is displayed 
+2024-02-13 16:38:40,345  [main] INFO  (listners.java:12) - Executing Test :org.testng.TestRunner@14ac77b9
+2024-02-13 16:38:40,391  [main] INFO  (Ethara_artists.java:16) - testScripts.Ethara_artists
+2024-02-13 16:38:40,480  [main] INFO  (Ethara_Artists.java:52) - Clicking on Menu from header
+2024-02-13 16:38:42,091  [main] INFO  (Ethara_Artists.java:55) - Clicking on Artists menu 
+2024-02-13 16:38:42,440  [main] INFO  (Ethara_Artists.java:68) - Artist listing page is displayed 
+2024-02-13 16:38:42,504  [main] INFO  (Ethara_Artists.java:95) - Cliking on MOre Info CTA
+2024-02-13 16:38:42,601  [main] INFO  (Ethara_Artists.java:97) - Getting Page Title Regional Artist Spotlight
+2024-02-13 16:38:43,604  [main] INFO  (Ethara_Artists.java:101) - Cliking on Read Q&A
+2024-02-13 16:38:44,697  [main] INFO  (Ethara_Artists.java:104) - Getting Page Title Regional Artist Spotlight
+2024-02-13 16:38:44,739  [main] INFO  (BaseClass.java:93) - Closing browser
+2024-02-13 16:38:57,357  [main] INFO  (BaseClass.java:43) - Setting up Chrome browser
+2024-02-13 16:38:59,788  [main] INFO  (BaseClass.java:75) - Landing page is displayed 
+2024-02-13 16:38:59,824  [main] INFO  (listners.java:12) - Executing Test :null
+2024-02-13 16:38:59,838  [main] INFO  (Ethara_artists.java:16) - testScripts.Ethara_artists
+2024-02-13 16:38:59,883  [main] INFO  (Ethara_Artists.java:52) - Clicking on Menu from header
+2024-02-13 16:39:01,652  [main] INFO  (Ethara_Artists.java:55) - Clicking on Artists menu 
+2024-02-13 16:39:02,108  [main] INFO  (Ethara_Artists.java:68) - Artist listing page is displayed 
+2024-02-13 16:39:02,169  [main] INFO  (Ethara_Artists.java:95) - Cliking on MOre Info CTA
+2024-02-13 16:39:02,257  [main] INFO  (Ethara_Artists.java:97) - Getting Page Title Regional Artist Spotlight
+2024-02-13 16:39:03,267  [main] INFO  (Ethara_Artists.java:101) - Cliking on Read Q&A
+2024-02-13 16:39:04,391  [main] INFO  (Ethara_Artists.java:104) - Getting Page Title Regional Artist Spotlight
+2024-02-13 16:39:04,430  [main] INFO  (BaseClass.java:93) - Closing browser
+2024-02-13 16:41:26,538  [main] INFO  (BaseClass.java:43) - Setting up Chrome browser
+2024-02-13 16:41:29,959  [main] INFO  (BaseClass.java:75) - Landing page is displayed 
+2024-02-13 16:41:29,988  [main] INFO  (listners.java:12) - Executing Test :artists_listing_page_tc
+2024-02-13 16:41:30,017  [main] INFO  (Ethara_artists.java:16) - testScripts.Ethara_artists
+2024-02-13 16:41:30,070  [main] INFO  (Ethara_Artists.java:52) - Clicking on Menu from header
+2024-02-13 16:41:31,674  [main] INFO  (Ethara_Artists.java:55) - Clicking on Artists menu 
+2024-02-13 16:41:32,345  [main] INFO  (Ethara_Artists.java:68) - Artist listing page is displayed 
+2024-02-13 16:41:32,389  [main] INFO  (Ethara_Artists.java:95) - Cliking on MOre Info CTA
+2024-02-13 16:41:32,509  [main] INFO  (Ethara_Artists.java:97) - Getting Page Title Regional Artist Spotlight
+2024-02-13 16:41:33,524  [main] INFO  (Ethara_Artists.java:101) - Cliking on Read Q&A
+2024-02-13 16:41:34,640  [main] INFO  (Ethara_Artists.java:104) - Getting Page Title 
+2024-02-13 16:41:34,749  [main] INFO  (BaseClass.java:93) - Closing browser
+2024-02-13 16:43:10,779  [main] INFO  (BaseClass.java:43) - Setting up Chrome browser
+2024-02-13 16:43:33,605  [main] INFO  (BaseClass.java:43) - Setting up Chrome browser
+2024-02-13 16:43:40,578  [main] INFO  (BaseClass.java:75) - Landing page is displayed 
+2024-02-13 16:43:40,610  [main] INFO  (listners.java:12) - Executing Test :null
+2024-02-13 16:43:40,619  [main] INFO  (Ethara_artists.java:16) - testScripts.Ethara_artists
+2024-02-13 16:43:40,654  [main] INFO  (Ethara_Artists.java:52) - Clicking on Menu from header
+2024-02-13 16:43:42,248  [main] INFO  (Ethara_Artists.java:55) - Clicking on Artists menu 
+2024-02-13 16:43:42,768  [main] INFO  (Ethara_Artists.java:68) - Artist listing page is displayed 
+2024-02-13 16:43:42,802  [main] INFO  (Ethara_Artists.java:95) - Cliking on MOre Info CTA
+2024-02-13 16:43:42,905  [main] INFO  (Ethara_Artists.java:97) - Getting Page Title Regional Artist Spotlight
+2024-02-13 16:43:43,915  [main] INFO  (Ethara_Artists.java:101) - Cliking on Read Q&A
+2024-02-13 16:43:45,081  [main] INFO  (Ethara_Artists.java:104) - Getting Page Title 
+2024-02-13 16:43:45,299  [main] INFO  (BaseClass.java:93) - Closing browser
+2024-02-13 16:45:58,065  [main] INFO  (BaseClass.java:43) - Setting up Chrome browser
+2024-02-13 16:46:00,583  [main] INFO  (BaseClass.java:75) - Landing page is displayed 
+2024-02-13 16:46:02,037  [main] INFO  (BaseClass.java:91) - Taking screenshot for failed test case testScripts.Ethara_artists
+2024-02-13 16:46:02,038  [main] INFO  (BaseClass.java:93) - Closing browser
+2024-02-13 16:46:09,920  [main] INFO  (BaseClass.java:43) - Setting up Chrome browser
+2024-02-13 16:46:12,136  [main] INFO  (BaseClass.java:75) - Landing page is displayed 
+2024-02-13 16:46:12,160  [main] INFO  (listners.java:12) - Executing Test :null
+2024-02-13 16:46:12,161  [main] INFO  (listners.java:13) - Executre Test : org.testng.internal.TestResult
+2024-02-13 16:46:12,161  [main] INFO  (listners.java:14) - Executre Test : artists_listing_page_tc
+2024-02-13 16:46:12,162  [main] INFO  (listners.java:15) - Executre Test : artists_listing_page_tc
+2024-02-13 16:46:12,173  [main] INFO  (Ethara_artists.java:16) - testScripts.Ethara_artists
+2024-02-13 16:46:12,206  [main] INFO  (Ethara_Artists.java:52) - Clicking on Menu from header
+2024-02-13 16:46:13,787  [main] INFO  (Ethara_Artists.java:55) - Clicking on Artists menu 
+2024-02-13 16:46:14,122  [main] INFO  (Ethara_Artists.java:68) - Artist listing page is displayed 
+2024-02-13 16:46:14,210  [main] INFO  (Ethara_Artists.java:95) - Cliking on MOre Info CTA
+2024-02-13 16:46:14,382  [main] INFO  (Ethara_Artists.java:97) - Getting Page Title Regional Artist Spotlight
+2024-02-13 16:46:15,390  [main] INFO  (Ethara_Artists.java:101) - Cliking on Read Q&A
+2024-02-13 16:46:16,495  [main] INFO  (Ethara_Artists.java:104) - Getting Page Title 
+2024-02-13 16:46:16,576  [main] INFO  (BaseClass.java:93) - Closing browser
+2024-02-13 16:58:29,540  [main] INFO  (BaseClass.java:43) - Setting up Chrome browser
+2024-02-13 16:58:31,962  [main] INFO  (BaseClass.java:75) - Landing page is displayed 
+2024-02-13 16:58:31,990  [main] INFO  (listners.java:12) - Executing Test :null
+2024-02-13 16:58:31,991  [main] INFO  (listners.java:13) - Executre Test : org.testng.internal.TestResult
+2024-02-13 16:58:31,991  [main] INFO  (listners.java:14) - Executre Test : artists_listing_page_tc
+2024-02-13 16:58:31,993  [main] INFO  (listners.java:15) - Executre Test : artists_listing_page_tc
+2024-02-13 16:58:31,993  [main] INFO  (listners.java:16) - Execute Test : Validation of Artist Listing Page
+2024-02-13 16:58:32,002  [main] INFO  (Ethara_artists.java:16) - testScripts.Ethara_artists
+2024-02-13 16:58:32,049  [main] INFO  (Ethara_Artists.java:52) - Clicking on Menu from header
+2024-02-13 16:58:33,642  [main] INFO  (Ethara_Artists.java:55) - Clicking on Artists menu 
+2024-02-13 16:58:34,244  [main] INFO  (Ethara_Artists.java:68) - Artist listing page is displayed 
+2024-02-13 16:58:34,279  [main] INFO  (Ethara_Artists.java:95) - Cliking on MOre Info CTA
+2024-02-13 16:58:34,420  [main] INFO  (Ethara_Artists.java:97) - Getting Page Title Regional Artist Spotlight
+2024-02-13 16:58:35,434  [main] INFO  (Ethara_Artists.java:101) - Cliking on Read Q&A
+2024-02-13 16:58:36,718  [main] INFO  (Ethara_Artists.java:104) - Getting Page Title 
+2024-02-13 16:58:36,900  [main] INFO  (BaseClass.java:93) - Closing browser

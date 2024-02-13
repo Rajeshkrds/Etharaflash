@@ -10,7 +10,7 @@ import utilities.webUtilities;
 
 public class Ethara_artists extends BaseClass {
 
-	@Test(testName = "Validation of artisit listing page")
+	@Test(testName = "Artisit listing page", description = "Validation of Artist Listing Page")
 	public void artists_listing_page_tc() throws InterruptedException, IOException {
 
 		log.info(getClass().getName());
@@ -26,7 +26,7 @@ public class Ethara_artists extends BaseClass {
 
 	}
 
-	@Test(testName = "Validation of artisit detail page")
+	@Test(testName = "Artisit Details page", description = "Validation of Artist Details Page")
 	public void artist_details_page_tc() throws IOException, InterruptedException {
 
 		log.info(getClass().getName());

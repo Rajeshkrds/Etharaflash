@@ -26,13 +26,13 @@ public class Ethara_home extends BaseClass {
 //
 //	}
 
-	@Test(priority = 2)
+	@Test(priority = 2, testName = "Home Page", description = "Validation of Home Page")
 	public void homePage_TC() throws InterruptedException, IOException {
 
 		Ethara_Header HomePage = new Ethara_Header(driver);
 
 //		log = LogManager.getLogger(this.getClass().getName());
-		log.info(this.getClass().getName());
+//		log.info(this.getClass().getName());
 
 		HomePage.check_links();
 

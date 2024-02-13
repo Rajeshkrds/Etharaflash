@@ -12,12 +12,12 @@ public class Ethara_events extends BaseClass {
 
 	webUtilities utilities = new webUtilities();
 
-	@Test
+	@Test(testName = "Events page", description = "Validation of Events Page")
 	public void ethara_events_tc() throws IOException, InterruptedException {
 
 		Ethara_Events events = new Ethara_Events(driver);
 		events.eventPage(driver);
-		log.info(this.getClass().getName());
+//		log.info(this.getClass().getName());
 
 		utilities.validation(driver.getTitle(), "Ethara | Making Moments That Matter");
 
@@ -26,29 +26,29 @@ public class Ethara_events extends BaseClass {
 		events.event_details();
 	}
 
-	@Test
+	@Test(testName = "ContactUs - Filter", description = "Validation of Events filter")
 	public void indiviudal_filter_tc() throws InterruptedException {
 		Ethara_Events events = new Ethara_Events(driver);
-		log.info(this.getClass().getName());
+//		log.info(this.getClass().getName());
 
 		events.events_category(driver);
 		events.events_location(driver);
 		events.eventsmonth(driver);
 	}
 
-	@Test
+	@Test(testName = "ContactUs - Filter", description = "Validation of Events filter - category and location")
 	public void filter_category_and_location_tc() throws InterruptedException, IOException {
 		Ethara_Events events = new Ethara_Events(driver);
-		log.info(this.getClass().getName());
+//		log.info(this.getClass().getName());
 
 		events.eventPage(driver);
 		events.category_and_location(driver);
 	}
 
-	@Test
+	@Test(testName = "ContactUs - Filter", description = "Validation of Events filter - Months, category and locaiton")
 	public void filter_category_location_month_tc() throws InterruptedException, IOException {
 		Ethara_Events events = new Ethara_Events(driver);
-		log.info(this.getClass().getName());
+//		log.info(this.getClass().getName());
 
 		events.eventPage(driver);
 		events.category_location_month(driver);

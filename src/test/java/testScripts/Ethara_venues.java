@@ -12,11 +12,11 @@ public class Ethara_venues extends BaseClass {
 
 	webUtilities utilities = new webUtilities();
 
-	@Test
+	@Test(testName = "Venues", description = "Validation of Venues page")
 	public void venues_tc() throws IOException, InterruptedException {
 
 		Ethara_Venues venues = new Ethara_Venues(driver);
-		log.info(this.getClass().getName());
+//		log.info(this.getClass().getName());
 
 		venues.venuesPage(driver);
 

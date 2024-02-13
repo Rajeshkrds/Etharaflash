@@ -14,12 +14,15 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import utilities.Config;
+import utilities.listners;
 
+@Listeners({ listners.class })
 public class BaseClass {
 	public static Logger log;
 	Config readConfig = new Config();
@@ -34,7 +37,6 @@ public class BaseClass {
 
 		log = Logger.getLogger(BaseClass.class);
 		PropertyConfigurator.configure("log4j.properties");
-		// loadLog4j();
 		if (browser.equals("chrome")) {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();

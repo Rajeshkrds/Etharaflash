@@ -13,9 +13,9 @@ import utilities.webUtilities;
 public class Ethara_contact_us extends BaseClass {
 	webUtilities utilities = new webUtilities();
 
-	@Test(enabled = true)
+	@Test(enabled = true, testName = "ContactUs", description = "Validation of Contact us business form")
 	public void businessForm_positive_tc() throws InterruptedException, IOException {
-		log.info(this.getClass().getName());
+//		log.info(this.getClass().getName());
 		Ethara_Header hp_header = new Ethara_Header(driver);
 		hp_header.contactus_button();
 
@@ -42,10 +42,10 @@ public class Ethara_contact_us extends BaseClass {
 		utilities.delay();
 	}
 
-	@Test(enabled = false)
+	@Test(enabled = false, testName = "ContactUs", description = "Validation of Contact us business form Error Message")
 	public void businessForm_FormValidation_tc() throws IOException {
 		Ethara_Header hp_header = new Ethara_Header(driver);
-		log.info(this.getClass().getName());
+//		log.info(this.getClass().getName());
 
 		hp_header.contactus_button();
 
@@ -93,10 +93,10 @@ public class Ethara_contact_us extends BaseClass {
 		utilities.assertAll();
 	}
 
-	@Test(enabled = true)
+	@Test(enabled = true, testName = "ContactUs", description = "Validation of Contact us Personal form")
 	public void personalForm_postivie_tc() throws InterruptedException, IOException {
 		Ethara_Header hp_header = new Ethara_Header(driver);
-		log.info(this.getClass().getName());
+//		log.info(this.getClass().getName());
 
 		hp_header.contactus_button();
 
@@ -114,10 +114,10 @@ public class Ethara_contact_us extends BaseClass {
 		personal.subscribe();
 	}
 
-	@Test(enabled = true)
+	@Test(enabled = true, testName = "ContactUs", description = "Validation of Contact us Personal form Error Message")
 	public void personalForm_FormValidation_tc() throws IOException {
 		Ethara_Header hp_header = new Ethara_Header(driver);
-		log.info(this.getClass().getName());
+//		log.info(this.getClass().getName());
 
 		hp_header.contactus_button();
 

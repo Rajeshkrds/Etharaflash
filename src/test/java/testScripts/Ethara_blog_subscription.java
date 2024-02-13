@@ -14,11 +14,11 @@ public class Ethara_blog_subscription extends BaseClass {
 
 	webUtilities utilities = new webUtilities();
 
-	@Test(enabled = true)
+	@Test(enabled = true, testName = " Ethara Blog subscription Page", description = "Validation of Blog subscription Page - Business form")
 	public void businessForm_positive_tc() throws InterruptedException, IOException {
 		Ethara_Blogs blogs = new Ethara_Blogs(driver);
 
-		log.info(this.getClass().getName());
+//		log.info(this.getClass().getName());
 
 		blogs.blog_page(driver);
 		String PageTitle = driver.getTitle();
@@ -46,10 +46,10 @@ public class Ethara_blog_subscription extends BaseClass {
 		utilities.delay();
 	}
 
-	@Test(enabled = false)
+	@Test(enabled = false, testName = " Ethara Blog subscription Page", description = "Validation of Blog subscription Page - Business form Error Message")
 	public void businessForm_FormValidation_tc() throws InterruptedException, IOException {
 
-		log.info(this.getClass().getName());
+//		log.info(this.getClass().getName());
 
 		Ethara_Blogs blogs = new Ethara_Blogs(driver);
 		blogs.blog_page(driver);
@@ -94,9 +94,9 @@ public class Ethara_blog_subscription extends BaseClass {
 //		utilities.validation(emirate_act_Message, emirate_exp_Message);
 	}
 
-	@Test(enabled = true)
+	@Test(enabled = true, testName = " Ethara Blog subscription Page", description = "Validation of Blog subscription Page - Contact form")
 	public void personalForm_postivie_tc() throws InterruptedException, IOException {
-		log.info(this.getClass().getName());
+//		log.info(this.getClass().getName());
 		Ethara_Blogs blogs = new Ethara_Blogs(driver);
 		blogs.blog_page(driver);
 
@@ -114,10 +114,10 @@ public class Ethara_blog_subscription extends BaseClass {
 		personal.subscribe();
 	}
 
-	@Test(enabled = false)
+	@Test(enabled = false, testName = " Ethara Blog subscription Page", description = "Validation of Blog subscription Page - Contact form Error message")
 	public void personalForm_FormValidation_tc() throws InterruptedException, IOException {
 		Ethara_Blogs blogs = new Ethara_Blogs(driver);
-		log.info(this.getClass().getName());
+//		log.info(this.getClass().getName());
 
 		blogs.blog_page(driver);
 
